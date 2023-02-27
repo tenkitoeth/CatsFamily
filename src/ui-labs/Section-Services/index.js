@@ -16,18 +16,9 @@ function SectionServicesLabs() {
 
             <div className="container-tres-services-labs">
 
-                {/* <div className="article-container-tres-services-labs uno">
+                <div className="article-container-tres-services-labs uno">
                     <h3 className="h3-article-services-labs">Creación de la colección desde 0</h3>
                     <p className="p-article-services-labs">Seguimiento del proyecto, creación del arte de la colección, generación de la metadata de cada NFT.</p>
-                </div> */}
-
-                <div className="flip-card-1 uno">
-                    <div className="flip-face flip-front">
-                        <h3 className="h3-article-services-labs">Creación de la colección desde 0</h3>
-                    </div>
-                    <div className="flip-face flip-back">
-                        <p className="p-article-services-labs">Seguimiento del proyecto, creación del arte de la colección, generación de la metadata de cada NFT.</p>
-                    </div>
                 </div>
 
                 <div className="article-container-tres-services-labs dos">
