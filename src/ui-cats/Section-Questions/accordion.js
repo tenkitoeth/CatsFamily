@@ -6,7 +6,7 @@ const Accordion = ({ title, content }) => {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div>
+    <div data-aos="fade-up">
       <div 
         className={isActive ? "contenedor-pregunta activa" : "contenedor-pregunta"} 
         onClick={() => setIsActive(!isActive)}

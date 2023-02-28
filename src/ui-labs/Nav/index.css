@@ -86,10 +86,10 @@ body {
     padding: .8rem 4rem;
     margin: .4rem;
     transition: all .3s ease-in-out;
+    border-radius: .4rem;
 }
 
 .a-nav:hover {
-    border-radius: .4rem;
     background-color: rgba(219, 36, 36, 0.842);
     box-shadow: 0 0 15px 0 rgba(219, 36, 36, 0.842);
 }
