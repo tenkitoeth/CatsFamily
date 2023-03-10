@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: flex-start;
     padding: 80px 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 
@@ -14,11 +15,15 @@
     color: #fff;
     font-size: 70px;
     letter-spacing: 6px;
+    font-weight: 500;
 }
 
 .img-roadmap {
-    height: 500px;
-    margin-top: 40px;
+    width: 60vw;
+    height: fit-content;
+    margin-top: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 35px -5px rgb(133, 133, 133);
 }
 
 .container-partners-section-roadmap-cats {
@@ -30,4 +35,5 @@
     color: #fff;
     font-size: 70px;
     letter-spacing: 6px;
+    font-weight: 500;
 }

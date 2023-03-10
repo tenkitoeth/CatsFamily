@@ -6,7 +6,7 @@
 }
 
 :root {
-    --font-family-titulo: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    --font-family-titulo: -apple-system, BlinkMacSystemFont, sans-serif;
     --backgroud: #1f1f1f;
     --background-nav: #313131;
     --text-color: #fff;
@@ -76,7 +76,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 0 0 0 20rem;
+    padding: 0 0 0 20rem; 
 }
 
 .a-nav {

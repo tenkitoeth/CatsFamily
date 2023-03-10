@@ -2,6 +2,7 @@
     position: relative;
     height: 100vh;
     background-color: var(--white);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .derecha{

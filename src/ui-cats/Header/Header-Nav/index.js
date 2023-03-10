@@ -24,7 +24,7 @@ function NavHeader({ menuBurguer }){
         <nav className={nav ? 'nav active' : 'nav'}>
             <div className="contenedor-menu">
 
-                <div className="logo-menu">
+                <div className="logo-menu"> 
                     <a href="#">
                         <img src={logoMenu}></img>
                     </a>
@@ -34,35 +34,75 @@ function NavHeader({ menuBurguer }){
                 </div>
 
                 <ul className={hamburguer ? "menu show" : "menu"}>
-                    <li>
+                    <li onClick={() => {
+                        return (
+                            setHamburguer(!hamburguer),
+                            setHamEffect(!hamEffect)
+                        )
+                    }}>
                         <a href="#quienes-somos">¿Quiénes somos?</a>
                     </li>
 
-                    <li>
+                    <li onClick={() => {
+                        return (
+                            setHamburguer(!hamburguer),
+                            setHamEffect(!hamEffect)
+                        )
+                    }}>
                         <a href="#utilidad">Utilidades</a>
                     </li>
 
-                    <li>
+                    <li onClick={() => {
+                        return (
+                            setHamburguer(!hamburguer),
+                            setHamEffect(!hamEffect)
+                        )
+                    }}>
                         <a href="#roadmap">Roadmap</a>
                     </li>
 
-                    <li>
+                    <li onClick={() => {
+                        return (
+                            setHamburguer(!hamburguer),
+                            setHamEffect(!hamEffect)
+                        )
+                    }}>
                         <a href="#adquirir">Adquirir NFTs</a>
                     </li>
 
-                    <li>
+                    <li onClick={() => {
+                        return (
+                            setHamburguer(!hamburguer),
+                            setHamEffect(!hamEffect)
+                        )
+                    }}>
                         <a href="#servicios">Beneficios</a>
                     </li>
 
-                    <li>
+                    <li onClick={() => {
+                        return (
+                            setHamburguer(!hamburguer),
+                            setHamEffect(!hamEffect)
+                        )
+                    }}>
                         <a href="#faq">FAQs</a>
                     </li>
 
-                    <li>
+                    <li onClick={() => {
+                        return (
+                            setHamburguer(!hamburguer),
+                            setHamEffect(!hamEffect)
+                        )
+                    }}>
                         <a href="#contacto">Contáctanos</a>
                     </li>
 
-                    <li>
+                    <li onClick={() => {
+                        return (
+                            setHamburguer(!hamburguer),
+                            setHamEffect(!hamEffect)
+                        )
+                    }}>
                         <a href="https://twitter.com/KittyCatsSOL" target="_blank">
                             <span>Twitter</span>
                             <i className="fa-brands fa-twitter"></i>

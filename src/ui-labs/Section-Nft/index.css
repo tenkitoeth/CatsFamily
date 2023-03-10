@@ -6,7 +6,7 @@
 }
 
 :root {
-    --font-family-titulo: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    --font-family-titulo: -apple-system, BlinkMacSystemFont, sans-serif;
     --backgroud: #1f1f1f;
     --background-nav: #313131;
     --text-color: #fff;
@@ -37,18 +37,21 @@ body {
 }
 
 .h1-section-nfts-labs {
-    font-size: 5.2rem;
-    letter-spacing: 1.2rem;
+    font-size: 4.8rem;
+    font-weight: 600;
+    letter-spacing: -.002em;
     color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .p-section-nfts-labs {
     width: 80%;
     margin: 5rem auto 0 auto;
-    letter-spacing: .28rem;
-    line-height: 4rem;
-    font-size: 2rem;
-    color: var(--subtext-color);
+    font-size: 2.8rem;
     font-weight: 400;
+    line-height: 3.6rem;
+    letter-spacing: -.001em;
+    color: var(--subtext-color);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 

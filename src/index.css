@@ -33,8 +33,8 @@ body{
 
 /* ****************** C A T S ****************** */
 
-
-@media screen and (max-width: 1250px){
+/* 1250 */
+@media screen and (max-width: 1200px){
   /* menu tamaño */
   .logo-menu img{
       width: 35px;
@@ -64,8 +64,11 @@ body{
   .contianer-pasos-section-adquirir-cats {
     margin-left: 60px;
   }
+  .img-roadmap {
+    width: 70vw;
+    }
 }
-
+/* 1024 */
 @media screen and (max-width: 1024px){
   /* menu hamburguesa responsive */
   #hamburguer{
@@ -90,7 +93,7 @@ body{
   .menu li{
       width: 85%;
       padding-bottom: 10px;
-      margin: 20px auto;
+      margin: 12px auto;
       border-bottom: 1px solid #a7a7ad;
   }
   .menu li a span{
@@ -123,6 +126,9 @@ body{
       font-size: 60px;
   }
   /* quienes somos */
+  #quienes-somos {
+      height: 75vh;
+  }
   .contenido-quienes-somos p{
       max-width: 70%;
       font-size: 20px;
@@ -140,6 +146,9 @@ body{
       margin-top: 20px;
       margin-bottom: 40px;
   }
+  .h2-titulo-section-adquirir-cats {
+      font-size: 5.2rem;
+  }
   /* servicios */
   .contenido-servicios p{
       max-width: 90%;
@@ -151,15 +160,29 @@ body{
   .img-adquirir {
     height: 350px;
   }
+  .img-roadmap {
+    width: 80vw;
 }
-
-@media screen and (max-width: 850px){
+}
+/* 850 */
+@media screen and (max-width: 768px){ 
   /* generales */
   h1{
       font-size: 70px;
   }
   h2{
       font-size: 50px;
+  }
+  .logo-menu img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .logo-menu p {
+      font-size: 2.2rem;
+      padding-left: 1.2rem;
+  }
+  .menu li a {
+      font-size: 2.4rem;
   }
   /* quienes somos */
   .contenido-quienes-somos p{
@@ -169,9 +192,12 @@ body{
       margin-top: 50px;
   }
   /* utilidades */
+  #utilidad {
+      height: 80vh;
+  }
   .izquierda{
       width: 300px;
-      left: -20px;
+      left: -4rem;
   }
   .derecha{
       position: relative;
@@ -179,29 +205,53 @@ body{
       top: -100px;
   }
   .derecha p{
-      font-size: 18px;
+      font-size: 2.4rem;
   }
   /* contacto */
   .contenido-contacto p{
       max-width: 90%;
       font-size: 18px;
   }
-  .img-roadmap {
-    height: 440px;
-  }
   .img-adquirir{
-      height: 300px;
-      right: 10%;
+    height: 300px;
+    right: 2%;
   }
   .general-section-adquirir-cats {
-    padding: 120px 0 240px 0;
+    padding: 12rem 0 16rem 0;
+  }
+  .contenido-servicios p {
+      max-width: 100%;
+  }
+  .lista-servicios {
+      width: 110%;
+  }
+  .elemento-lista {
+      padding: 1.2rem;
   }
   .container-image-adquirir {
-      height: 15vh;
+    height: 15vh;
   }
+  #faq {
+      min-height: 80vh;
+  }
+  .titulo-faq {
+      margin-top: 2rem;
+  }
+  .img-roadmap {
+    width: 85vw;
+    }
 }
-
-@media screen and (max-width: 650px){
+/* 650 */
+@media screen and (max-width: 600px){
+    .button {
+        bottom: 30px;
+        right: 30px;
+        height: 8rem;
+        width: 8rem;
+    }
+    .logo-discord {
+        font-size: 3.6rem;
+    }
   /* generales */
   h1{
       font-size: 55px;
@@ -234,7 +284,7 @@ body{
 
   .contenido-servicios{
     justify-content: flex-start;
-    height: 155vh;
+    margin: 10rem 0 8rem 0;
   }
 
   .contenido-servicios p {
@@ -249,6 +299,10 @@ body{
       grid-gap: 16px;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, auto);
+      margin-top: 6rem;
+  }
+  .elemento-lista {
+      height: auto;
   }
   .div-arrow-article-pasos-section-adquirir-cats i {
       font-size: 28px;
@@ -272,10 +326,6 @@ body{
 
   .titulo-faq {
       margin-top: 0;
-  }
-
-  #contacto {
-      height: 100vh;
   }
   /* form para enviar mensajes y recibir al correo*/
   form{
@@ -301,9 +351,6 @@ body{
   .container-partners-section-roadmap-cats h2{
       font-size: 40px;
   }
-  .img-roadmap {
-    height: 350px;
-  }
   .img-adquirir{
       height: 300px;
       right: 10%;
@@ -314,9 +361,12 @@ body{
   .container-image-adquirir {
       height: 15vh;
   }
+  .img-roadmap {
+    width: 85vw;
+    }
 }
-
-@media screen and (max-width: 500px){
+/* 500 */
+@media screen and (max-width: 480px){
   /* botones */
   .botones{
       flex-direction: column;
@@ -348,13 +398,13 @@ body{
       width: 250px;
       left: 0px;
   }
+  .img-roadmap {
+    width: 85vw;
+    }
   /* servicios */
   .contenido-servicios p{
       max-width: 100%;
       font-size: 16px;
-  }
-  .img-roadmap {
-      height: 280px;
   }
   /* faq */
   .pregunta{
@@ -420,7 +470,67 @@ body{
   }
 }
 
+@media screen and (max-width: 393px){
+    .contenido-portada img {
+        width: 230px;
+        height: 230px;
+    }
+    .titulo-portada {
+        font-size: 3.2rem;
+        margin-left: 1rem;
+    }
+    .logo-menu img {
+        width: 5.2rem;
+        height: 5.2rem;
+    }
+    .logo-menu a {
+        padding-left: .4rem;
+    }
+    .logo-menu p {
+        font-size: 1.8rem;
+    }
+    .menu li a {
+        font-size: 2rem;
+    }
+    #quienes-somos {
+        height: 70vh;
+    }
+    .contenido-quienes-somos h2 {
+        font-size: 3.2rem;
+    }
+    .contenido-quienes-somos p {
+        font-size: 1.8rem;
+    }
+    .h2-titulo-section-adquirir-cats {
+        font-size: 2.8rem;
+    }
+    .div-arrow-article-pasos-section-adquirir-cats i {
+        font-size: 2.4rem;
+    }
+    .div-arrow-article-pasos-section-adquirir-cats h3 {
+        font-size: 2rem;
+    }
+    .contianer-pasos-section-adquirir-cats {
+        grid-row-gap: 4rem;
+    }
+    .div-texto-uno-article-pasos-section-adquirir-cats, 
+    .div-texto-dos-article-pasos-section-adquirir-cats, 
+    .div-texto-tres-article-pasos-section-adquirir-cats {
+        margin-top: 2rem;
+        margin-left: 4rem;
+    }
+    .img-roadmap {
+        width: 90vw;
+    }
+    .pregunta {
+        column-gap: 3rem;
+    }
+}
+/* 375 */
 @media screen and (max-width: 375px){
+    .logo-discord {
+        font-size: 3rem;
+    }
   /* generales */
   h1{
       font-size: 30px;
@@ -441,16 +551,17 @@ body{
   .carousel {
       margin-bottom: 40px;
   }
+  
   /* utilidades */
   #utilidad {
-      height: 80vh;
+      height: 90vh;
+  }
+  #contacto {
+      height: 100vh;
   }
   .derecha p{
       font-size: 14px;
       line-height: 24px;
-  }
-  .img-roadmap {
-      height: 220px;
   }
   .container-partners-section-roadmap-cats {
       margin-top: 60px;
@@ -461,9 +572,11 @@ body{
   .container-partners-section-roadmap-cats h2 {
       font-size: 32px;
   }
-
+  .container-titulo-section-adquirir-cats {
+      width: 90%;
+  }
   .h2-titulo-section-adquirir-cats {
-      font-size: 28px;
+      font-size: 24px;
   }
   .div-arrow-article-pasos-section-adquirir-cats h3 {
       font-size: 20px;
@@ -516,9 +629,15 @@ body{
   .copyright{
   font-size: 16px;
   }
+  .autor-labs p {
+      font-size: 1.4rem;
+  }
+  .a-autor-labs {
+    padding: 0.4rem 0;
+  }
 }
-
-@media screen and (max-width: 320px){
+/* 320 */
+@media screen and (max-width: 360px){
   /* generales */
   h1{
       font-size: 20px;
@@ -530,9 +649,6 @@ body{
   /* form de contacto */
   form{
       width: 225px;
-  }
-  .img-roadmap {
-      height: 180px;
   }
   .elemento-lista {
       top: 13vh;
@@ -559,10 +675,19 @@ body{
   }
   .autor-labs p {
       font-size: 1.4rem;
-      margin-left: 6rem;
+      margin-left: -2rem;
   }
   .a-autor-labs {
-      margin-left: 8rem;
+      margin-left: .4rem;
+  }
+  .menu li {
+    width: 90%;
+    margin: 1.6rem auto;
+    padding-bottom: 1.6rem;
+    padding-left: 1.2rem;
+  }
+  .menu li a {
+      font-size: 1.6rem;
   }
   
 }
@@ -574,12 +699,15 @@ body{
 /* ****************** L A B S ****************** */
 
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1200px) {
     .h4-header-labs {
         left: 20vw;
     }
     .ola {
         top: 35rem;
+    }
+    .article-container-tres-services-labs {
+        height: 45vh;
     }
 }
 
@@ -592,15 +720,15 @@ body{
         margin-right: 0;
     }
     .hamburger .line {
-        width: 5.6rem;
-        height: .6rem;
-        margin: 1.2rem;
+        width: 4rem;
+        height: .4rem;
+        margin: .8rem;
     }
     #hamburger-6.is-active .line:nth-child(1) {
         transform: translateY(18px);
     }
     #hamburger-6.is-active .line:nth-child(3) {
-        transform: translateY(-18px) rotate(90deg);
+        transform: translateY(-6px) rotate(90deg);
     }
     .container-nav{
         min-height: 10vh;
@@ -622,8 +750,6 @@ body{
     }
     .ul-nav li{
         padding-bottom: 10px;
-        /* margin: 20px; */
-        /* border-bottom: 1px solid #a7a7ad; */
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -634,6 +760,7 @@ body{
         border-bottom: 2px solid #ffffffb7;
         margin: 0 2rem;
         padding: 4rem 2rem;
+        font-size: 2.2rem;
     }
     .ul-nav li a span{
         display: unset;
@@ -666,7 +793,7 @@ body{
         font-size: 3.2rem;
     }
     .video-fondo-labs {
-        top: 25rem;
+        top: 11rem;
     }
     .h4-header-labs {
         top: 60%;
@@ -675,18 +802,18 @@ body{
         line-height: 7.2rem;
     }
     .ola {
-        top: 92rem
+        top: 5rem
     }
     .h1-section-nfts-labs {
-        font-size: 7.2rem;
+        font-size: 6rem;
     }
     .p-section-nfts-labs {
         width: 86%;
-        font-size: 3.2rem;
-        line-height: 6rem;
+        font-size: 2.4rem;
+        line-height: 4.4rem;
     }
     .h2-services-labs {
-        font-size: 5.2rem;
+        font-size: 4.8rem;
     }
     .h1-services-labs {
         font-size: 4rem;
@@ -702,42 +829,53 @@ body{
         margin-top: 8rem;
     }
     .article-container-tres-services-labs {
-        height: 32vh;
+        height: 50vh;
     }
     .h3-article-services-labs {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }
     .p-article-services-labs {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         line-height: 3.2rem;
     }
     .h2-container-cuatro-services-labs {
-        font-size: 4rem;
+        font-size: 2.8rem;
+        width: 70%;
     }
     .p-container-cuatro-services-labs {
-        font-size: 2.8rem;
+        font-size: 2.2rem;
     }
     .general-container-contador-labs {
-        height: 70vh;
+        height: 100vh;
     }
     .h2-contador-labs {
-        font-size: 4rem;
+        font-size: 3.2rem;
         line-height: 5.2rem;
     }
     .container-contador-labs {
         width: 100%;
+        height: 37vh;
     }
     .container-general-twitter-contador-labs, 
     .container-general-nft-contador-labs, 
     .container-general-discord-contador-labs {
-        height: 18vh;
+        height: 28vh;
     }
     footer {
-        height: 20vh;
+        height: 30vh;
+    }
+    .footer-labs {
+        padding-bottom: 0;
+    }
+    .copyright {
+        margin-top: 4rem;
+    }
+    .condiciones-legales {
+        margin-top: 2rem;
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
     .hamburger .line {
         width: 4.4rem;
         height: 0.4rem;
@@ -779,11 +917,11 @@ body{
         font-size: 5.2rem;
     }
     .p-section-nfts-labs {
-        font-size: 2.4rem;
-        line-height: 5.2rem;
+        font-size: 2.6rem;
+        line-height: 4rem;
     }
     .h2-services-labs {
-        font-size: 4.4rem;
+        font-size: 4rem;
         letter-spacing: .6rem;
     }
     .container-dos-services-labs {
@@ -803,13 +941,13 @@ body{
         height: 40vh;
     }
     .h3-article-services-labs {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
     .p-article-services-labs {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .container-cuatro-services-labs {
-        margin-top: 16rem;
+        margin-top: 10rem;
     }
     .h2-container-cuatro-services-labs {
         width: 80%;
@@ -819,10 +957,10 @@ body{
         font-size: 2.4rem;
     }
     .general-container-contador-labs {
-        height: 100vh;
+        height: 80vh;
     }
     .h2-contador-labs {
-        font-size: 3.2rem;
+        font-size: 2.6rem;
         line-height: 4.4rem;
     }
     .container-general-twitter-contador-labs, 
@@ -832,6 +970,18 @@ body{
     }
     .container-contador-labs {
         width: 110%;
+        height: 28vh;
+    }
+    .h2-twitter-contador-labs, 
+    .h2-nft-contador-labs, 
+    .h2-discord-contador-labs {
+        font-size: 2.8rem;
+    }
+    .simbolo-numero-nft-contador-labs {
+        font-size: 3.2rem;
+    }
+    .p-numero-contador-labs {
+        font-size: 3.2rem;
     }
     footer {
         height: 25vh;
@@ -839,7 +989,10 @@ body{
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
+    .container-nav {
+        grid-template-columns: 1fr 3fr;
+    }
     .li-nav {
         font-size: 2rem;
         padding: 0;
@@ -857,51 +1010,75 @@ body{
     }
     .ola-dos {
         display: block;
+        margin-top: 19rem;
+    }
+    .container-section-nfts-labs {
+        height: 85vh;
     }
     .h1-section-nfts-labs {
         font-size: 4rem;
         letter-spacing: .8rem;
     }
     .p-section-nfts-labs {
-        line-height: 4.4rem;
+        line-height: 4rem;
+        font-size: 2.4rem;
     }
     .h2-services-labs {
-        font-size: 3.2rem;
+        font-size: 2.8rem;
     }
     .p-services-labs {
         font-size: 2.4rem;
     }
     .section-services-labs{
         margin-bottom: 6rem;
+        padding: 6rem 0 8rem 0;
     }
     .container-dos-services-labs {
         width: 80%;
+        margin-top: 8rem;
     }
     .h1-services-labs {
         width: 100%;
-        font-size: 3.2rem;
+        font-size: 2.8rem;
         letter-spacing: .3rem;
     }
     .container-tres-services-labs {
         width: 90%;
+        margin-top: 6rem;
     }
     .article-container-tres-services-labs {
         height: 50vh;
     }
+    .uno,
+    .dos {
+        height: 47vh;
+    }
+    .tres,
+    .cuatro {
+        height: 48vh;
+    }
+    .cinco,
+    .seis {
+        height: 35vh;
+        margin-top: -12rem;
+    }
     .p-article-services-labs {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .h2-container-cuatro-services-labs{
-        font-size: 2.6rem;
+        font-size: 2.4rem;
         width: 80%;
         letter-spacing: .1rem;
     }
     .p-container-cuatro-services-labs {
-        font-size: 2.4rem;
+        font-size: 2rem;
+    }
+    .container-cuatro-services-labs {
+        margin-top: 0;
     }
     .h2-contador-labs {
-        font-size: 2.8rem;
-        line-height: 4rem;
+        font-size: 2rem;
+        line-height: 3.2rem;
     }
     
     .container-titulo-twitter-contador-labs,
@@ -914,6 +1091,7 @@ body{
         grid-template-rows: 1fr 1fr 1fr;
         grid-row-gap: 40px;
         width: 80%;
+        height: 74vh;
     }
     .general-container-contador-labs {
         height: auto;
@@ -957,7 +1135,7 @@ body{
     }
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 480px) {
     .container-nav {
         grid-template-columns: 1fr 2fr;
     }
@@ -974,7 +1152,7 @@ body{
         margin: .8rem;
     }
     #hamburger-6.is-active .line:nth-child(3) {
-        transform: translateY(-10px) rotate(90deg);
+        transform: translateY(-6px) rotate(90deg);
     }
     .li-nav {
         font-size: 1.8rem;
@@ -991,8 +1169,8 @@ body{
         font-size: 2.4rem;
         line-height: 4.8rem;
     }
-    .ola {
-        top: 28rem;
+    .ola-dos {
+        margin-top: 28rem;
     }
     .container-section-nfts-labs {
         height: 90vh;
@@ -1002,7 +1180,7 @@ body{
         letter-spacing: .4rem;
     }
     .p-section-nfts-labs {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         line-height: 3.2rem;
     }
     .h2-services-labs {
@@ -1015,14 +1193,14 @@ body{
         margin-top: 6rem;
     }
     .h1-services-labs {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
     }    
     .container-tres-services-labs {
         display: flex;
         flex-direction: column;
     }
     .article-container-tres-services-labs {
-        height: 42vh;
+        height: 36vh;
     }
     .h3-article-services-labs {
         font-size: 2.6rem;
@@ -1030,12 +1208,21 @@ body{
     .p-container-cuatro-services-labs {
         font-size: 2rem;
     }
+    .cinco, 
+    .seis {
+        margin-top: 0;
+    }
+    .container-cuatro-services-labs {
+        margin-top: 8rem;
+    }
     .h2-contador-labs {
-        font-size: 2.4rem;
+        font-size: 2rem;
         line-height: 3.2rem;
     }
     .container-contador-labs {
         width: 90%;
+        margin-top: 6rem;
+        height: 76vh;
     }
     .simbolo-numero-nft-contador-labs {
         font-size: 2.8rem;
@@ -1085,8 +1272,8 @@ body{
         font-size: 3.2rem;
         margin: -4rem auto 0 auto;
     }
-    .ola {
-        top: 14rem;
+    .ola-dos {
+        margin-top: 14rem;
     }
     .container-section-nfts-labs {
         height: 80vh;
@@ -1096,7 +1283,8 @@ body{
     }
     .p-section-nfts-labs {
         font-size: 1.6rem;
-        line-height: 2.8rem;
+        letter-spacing: .2rem;
+        line-height: 2.4rem;
         margin: 2rem auto 0 auto;
     }
     .h2-services-labs {
@@ -1120,6 +1308,18 @@ body{
     .p-container-cuatro-services-labs {
         font-size: 1.8rem;
     }
+    .h2-contador-labs {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+    .container-contador-labs {
+        height: 90vh;
+    }
+    /* .h2-twitter-contador-labs, 
+    .h2-nft-contador-labs, 
+    .h2-discord-contador-labs{
+        font-size: 2.8rem;
+    }  */
     .container-general-twitter-contador-labs, 
     .container-general-nft-contador-labs, 
     .container-general-discord-contador-labs {
@@ -1130,9 +1330,27 @@ body{
     .container-numero-discord-contador-labs {
         margin-top: 2.4rem;
     }
+    .footer-labs {
+        height: 24vh;
+    }
+    .rrss a {
+        margin: .2rem 1.2rem;
+    }
 }
 
 @media screen and (max-width: 375px) {
+    .ola-dos {
+        margin-top: 11rem;
+    }
+    .p-section-nfts-labs {
+        font-size: 1.5rem;
+    }
+    .h2-services-labs {
+        font-size: 2rem;
+    }
+    .p-services-labs {
+        font-size: 1.6rem;
+    }
     .article-container-tres-services-labs {
         height: 46vh;
     }
@@ -1143,8 +1361,9 @@ body{
         font-size: 1.6rem;
     }
     .h2-contador-labs {
-        font-size: 2.2rem;
-        line-height: 3.2rem;
+        font-size: 1.6rem;
+        letter-spacing: .1rem;
+        line-height: 2.8rem;
     }
 }
 
@@ -1202,7 +1421,6 @@ body{
     }
     .h2-contador-labs {
         letter-spacing: .1rem;
-        font-size: 2rem;
     }
     .h2-twitter-contador-labs, 
     .h2-nft-contador-labs, 
@@ -1217,5 +1435,8 @@ body{
     }
     .p-texto-contador-labs {
         margin-top: .8rem;
+    }
+    .container-contador-labs {
+        height: 92vh;
     }
 }

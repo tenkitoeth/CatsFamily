@@ -17,10 +17,41 @@ function NavLabs() {
 
             <ul className={hamburguer ? "ul-nav show" : "ul-nav"}>
                 <li className="li-nav"> 
-                    <a className="a-nav" href="#nfts">NFTs</a>
-                    <a className="a-nav" href="#services">SERVICIOS</a>
-                    <a className="a-nav" href="#community">COMUNIDAD</a>
-                    <a className="a-nav" href="/dady">CATS FAMILY</a>
+                    <a className="a-nav" href="#nfts"
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}
+                    >NFTs</a>
+
+                    <a className="a-nav" href="#services"
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}
+                    >SERVICIOS</a>
+
+                    <a className="a-nav" href="#community"
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}
+                    >COMUNIDAD</a> 
+
+                    <a className="a-nav" href="/dady"
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}
+                    >CATS FAMILY</a>
                 </li>
             </ul>
 

@@ -1,4 +1,5 @@
 .general-section-adquirir-cats {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     width: 100%;
     height: auto;
     position: relative;
@@ -48,6 +49,7 @@
 }
 
 .div-arrow-article-pasos-section-adquirir-cats i{
+    display: block;
     font-size: 32px;
     color: #000;
     cursor: pointer;
@@ -63,6 +65,7 @@
     color: #000;
     margin-left: 20px;
     letter-spacing: 1px;
+    font-weight: 500;
 }
 
 .div-texto-uno-article-pasos-section-adquirir-cats, 

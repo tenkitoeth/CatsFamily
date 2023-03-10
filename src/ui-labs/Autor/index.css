@@ -24,8 +24,9 @@ html {
 
 .autor-labs p {
     font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: -.002em;
     color: #fff;
-    letter-spacing: .2rem;
 }
 
 .a-autor-labs {

@@ -10,7 +10,7 @@ function ContactSection() {
                 
                     <p className="textsection-p">Puedes establecer contacto con nosotros <span className="textsection-p--span">sin ningún tipo de compromiso</span> a través del siguiente formulario. Una vez estudiemos tu caso te daremos un presupuesto acorde al mismo.</p>
 
-                    <form action="https://formspree.io/f/{form_id}" method="POST" data-aos="zoom-in-up" data-aos-duration="600">
+                    <form action="https://formspree.io/f/{form_id}" method="POST" data-aos="zoom-in-up" data-aos-duration="600" data-aos-offset="300">
                         <input type="text" name="name" placeholder="Tu nombre" required />
 
                         <input type="email" name="email" placeholder="Tu E-mail" required />

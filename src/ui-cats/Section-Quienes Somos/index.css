@@ -1,7 +1,7 @@
 #quienes-somos{
     position: relative;
     height: 90vh;
-
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     background-color: var(--background-black);
 }
 

@@ -1,16 +1,22 @@
 #faq{
     position: relative;
     min-height: 100vh;
+    padding: 6rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--white);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .titulo-faq{
     margin-top: 100px;
     margin-bottom: 30px;
+}
+
+.titulo-faq h2 {
+    font-weight: 500;
 }
 
 .preguntas{
@@ -52,7 +58,7 @@
 
 
 .pregunta{
-    font-weight: 700;
+    font-weight: 500;
     color: var(--black);
     font-size: 20px;
     line-height: 20px;
@@ -72,6 +78,7 @@
     line-height: 30px;
     transition: .3s ease all;
     font-size: 16px;
+    font-weight: 500;
 }
 
 
@@ -100,5 +107,5 @@
 
 .contenedor-pregunta.activa img{
     transform: rotate(45deg);
-    transition: all .2s ease;
+    transition: all .2s ease-in-out;
 }

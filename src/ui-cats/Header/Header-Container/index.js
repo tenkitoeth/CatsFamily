@@ -8,7 +8,7 @@ function ContainerTitulo(){
             <div className="contenido-portada">
 
                 <img src={logoFondo}></img>
-                <h1>CATS FAMILY</h1>
+                <h1 className="titulo-portada">CATS FAMILY</h1>
 
             </div>
             
