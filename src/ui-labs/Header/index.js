@@ -5,7 +5,9 @@ import videoPortadaLabs from '../assets/video-portada-bajo.mp4'
 function HeaderLabs() {
     return (
         <section id="header" className="container-header-labs">
-            <video className="video-fondo-labs" src={videoPortadaLabs} muted autoPlay loop />
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto">
+                <source src={videoPortadaLabs} type="video/mp4" />
+            </video>
 
             <h4 className="h4-header-labs" data-aos="fade-up"  data-aos-duration="1000">La tecnología NFT ha llegado para quedarse. <br />Únete a la revolución.</h4>
 
