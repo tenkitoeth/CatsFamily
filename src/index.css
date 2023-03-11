@@ -792,9 +792,6 @@ body{
         padding: 0;
         font-size: 3.2rem;
     }
-    .video-fondo-labs {
-        top: 11rem;
-    }
     .h4-header-labs {
         top: 60%;
         left: 5vw;
@@ -854,15 +851,6 @@ body{
     }
     .container-contador-labs {
         width: 100%;
-        height: 37vh;
-    }
-    .container-general-twitter-contador-labs, 
-    .container-general-nft-contador-labs, 
-    .container-general-discord-contador-labs {
-        height: 28vh;
-    }
-    footer {
-        height: 30vh;
     }
     .footer-labs {
         padding-bottom: 0;
@@ -891,7 +879,6 @@ body{
     }
     .video-fondo-labs {
         height: 50rem;
-        top: 12rem;
     }
     .h4-header-labs {
         width: 80%;
@@ -901,7 +888,7 @@ body{
         line-height: 6rem;
     }
     .container-nav {
-        background-color: rgba(36, 33, 33, 0.445);
+        background-color: rgb(0 0 0 / 67%);
     }
     .li-nav {
         font-size: 2.4rem;
@@ -909,9 +896,6 @@ body{
     }
     .ola {
         top: 19rem;
-    }
-    .container-section-nfts-labs {
-        height: 100vh;
     }
     .h1-section-nfts-labs {
         font-size: 5.2rem;
@@ -963,14 +947,8 @@ body{
         font-size: 2.6rem;
         line-height: 4.4rem;
     }
-    .container-general-twitter-contador-labs, 
-    .container-general-nft-contador-labs, 
-    .container-general-discord-contador-labs {
-        height: 20vh;
-    }
     .container-contador-labs {
         width: 110%;
-        height: 28vh;
     }
     .h2-twitter-contador-labs, 
     .h2-nft-contador-labs, 
@@ -983,9 +961,6 @@ body{
     .p-numero-contador-labs {
         font-size: 3.2rem;
     }
-    footer {
-        height: 25vh;
-    }
 
 }
 
@@ -996,9 +971,6 @@ body{
     .li-nav {
         font-size: 2rem;
         padding: 0;
-    }
-    .video-fondo-labs {
-        top: 10rem;
     }
     .h4-header-labs {
         font-size: 4rem;
@@ -1011,9 +983,6 @@ body{
     .ola-dos {
         display: block;
         margin-top: 19rem;
-    }
-    .container-section-nfts-labs {
-        height: 85vh;
     }
     .h1-section-nfts-labs {
         font-size: 4rem;
@@ -1091,17 +1060,10 @@ body{
         grid-template-rows: 1fr 1fr 1fr;
         grid-row-gap: 40px;
         width: 80%;
-        height: 74vh;
     }
     .general-container-contador-labs {
         height: auto;
         margin-bottom: 6rem;
-    }
-
-    .container-numero-twitter-contador-labs, 
-    .container-numero-nft-contador-labs, 
-    .container-numero-discord-contador-labs {
-        margin-top: 1.6rem;
     }
 
     .h2-twitter-contador-labs, 
@@ -1161,9 +1123,6 @@ body{
         width: 90%;
         padding: 3.2rem 2rem;
     }
-    .video-fondo-labs {
-        top: 5rem;
-    }
     .h4-header-labs {
         margin: 0rem auto 0 auto;
         font-size: 2.4rem;
@@ -1171,9 +1130,6 @@ body{
     }
     .ola-dos {
         margin-top: 28rem;
-    }
-    .container-section-nfts-labs {
-        height: 90vh;
     }
     .h1-section-nfts-labs {
         font-size: 3.6rem;
@@ -1200,7 +1156,7 @@ body{
         flex-direction: column;
     }
     .article-container-tres-services-labs {
-        height: 36vh;
+        height: auto;
     }
     .h3-article-services-labs {
         font-size: 2.6rem;
@@ -1222,7 +1178,6 @@ body{
     .container-contador-labs {
         width: 90%;
         margin-top: 6rem;
-        height: 76vh;
     }
     .simbolo-numero-nft-contador-labs {
         font-size: 2.8rem;
@@ -1247,9 +1202,6 @@ body{
         font-size: 1.6rem;
         margin-top: 0;
     }
-    footer {
-        height: 30vh;
-    }
     .rrss a {
         margin: 1.2rem 1.6rem;
     }
@@ -1265,18 +1217,12 @@ body{
     .a-nav {
         padding: 2.4rem 2rem;
     }
-    .video-fondo-labs {
-        top: 3.2rem;
-    }
     .h4-header-labs {
         font-size: 3.2rem;
-        margin: -4rem auto 0 auto;
+        margin: -10rem auto 0 auto;
     }
     .ola-dos {
         margin-top: 14rem;
-    }
-    .container-section-nfts-labs {
-        height: 80vh;
     }
     .h1-section-nfts-labs {
         font-size: 3.2rem;
@@ -1289,9 +1235,6 @@ body{
     }
     .h2-services-labs {
         font-size: 2.4rem;
-    }
-    .article-container-tres-services-labs {
-        height: 45vh;
     }
     .h3-article-services-labs {
         font-size: 2.4rem;
@@ -1312,27 +1255,11 @@ body{
         font-size: 1.6rem;
         line-height: 2.4rem;
     }
-    .container-contador-labs {
-        height: 90vh;
-    }
     /* .h2-twitter-contador-labs, 
     .h2-nft-contador-labs, 
     .h2-discord-contador-labs{
         font-size: 2.8rem;
     }  */
-    .container-general-twitter-contador-labs, 
-    .container-general-nft-contador-labs, 
-    .container-general-discord-contador-labs {
-        height: 24vh;
-    }
-    .container-numero-twitter-contador-labs, 
-    .container-numero-nft-contador-labs, 
-    .container-numero-discord-contador-labs {
-        margin-top: 2.4rem;
-    }
-    .footer-labs {
-        height: 24vh;
-    }
     .rrss a {
         margin: .2rem 1.2rem;
     }
@@ -1351,9 +1278,6 @@ body{
     .p-services-labs {
         font-size: 1.6rem;
     }
-    .article-container-tres-services-labs {
-        height: 46vh;
-    }
     .h3-article-services-labs {
         font-size: 2.2rem;
     }
@@ -1367,6 +1291,14 @@ body{
     }
 }
 
+@media screen and (max-height: 667px) {
+    .container-header-labs {
+        top: -8rem;
+        height: auto;
+
+    }
+}
+
 @media screen and (max-width: 360px) {
     .hamburger .line {
         width: 3.2rem;
@@ -1377,7 +1309,6 @@ body{
         transform: translateY(-4px) rotate(90deg);
     }
     .video-fondo-labs {
-        top: 10rem;
         height: 32rem;
     }
     .h4-header-labs {
@@ -1387,9 +1318,6 @@ body{
     }
     .ola {
         top: 17rem;
-    }
-    .container-section-nfts-labs {
-        height: 70vh;
     }
     .h1-section-nfts-labs {
         font-size: 2.8rem;
@@ -1404,9 +1332,6 @@ body{
     .p-services-labs {
         font-size: 1.6rem;
     }
-    .article-container-tres-services-labs {
-        height: 44vh;
-    }  
     .h3-article-services-labs {
         font-size: 2rem;
     }
