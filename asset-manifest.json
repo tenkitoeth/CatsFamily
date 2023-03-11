@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/555Labs/static/css/main.e7c04b3f.css",
-    "main.js": "/555Labs/static/js/main.db41e9c0.js",
+    "main.css": "/555Labs/static/css/main.fdd96a49.css",
+    "main.js": "/555Labs/static/js/main.5f8bf626.js",
     "static/media/fondo_portada.mp4": "/555Labs/static/media/fondo_portada.13f507ef4bf42a261614.mp4",
     "static/media/video-portada-bajo.mp4": "/555Labs/static/media/video-portada-bajo.6535db8c25fa623352c6.mp4",
     "static/media/20.webp": "/555Labs/static/media/20.5afbd5e30563e9320e11.webp",
@@ -23,11 +23,11 @@
     "static/media/LOGO-1024x1024.webp": "/555Labs/static/media/LOGO-1024x1024.77ba5bd4b473864e55e9.webp",
     "index.html": "/555Labs/index.html",
     "static/media/plus.svg": "/555Labs/static/media/plus.18e46bbfa44de388026c38f00afdd67b.svg",
-    "main.e7c04b3f.css.map": "/555Labs/static/css/main.e7c04b3f.css.map",
-    "main.db41e9c0.js.map": "/555Labs/static/js/main.db41e9c0.js.map"
+    "main.fdd96a49.css.map": "/555Labs/static/css/main.fdd96a49.css.map",
+    "main.5f8bf626.js.map": "/555Labs/static/js/main.5f8bf626.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7c04b3f.css",
-    "static/js/main.db41e9c0.js"
+    "static/css/main.fdd96a49.css",
+    "static/js/main.5f8bf626.js"
   ]
 }
