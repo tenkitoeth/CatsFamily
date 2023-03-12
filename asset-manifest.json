@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/555Labs/static/css/main.cb994009.css",
-    "main.js": "/555Labs/static/js/main.dcc60c7e.js",
+    "main.js": "/555Labs/static/js/main.524c3d07.js",
     "static/media/fondo_portada.mp4": "/555Labs/static/media/fondo_portada.13f507ef4bf42a261614.mp4",
     "static/media/video-portada-bajo.mp4": "/555Labs/static/media/video-portada-bajo.6535db8c25fa623352c6.mp4",
     "static/media/20.webp": "/555Labs/static/media/20.5afbd5e30563e9320e11.webp",
@@ -24,10 +24,10 @@
     "index.html": "/555Labs/index.html",
     "static/media/plus.svg": "/555Labs/static/media/plus.18e46bbfa44de388026c38f00afdd67b.svg",
     "main.cb994009.css.map": "/555Labs/static/css/main.cb994009.css.map",
-    "main.dcc60c7e.js.map": "/555Labs/static/js/main.dcc60c7e.js.map"
+    "main.524c3d07.js.map": "/555Labs/static/js/main.524c3d07.js.map"
   },
   "entrypoints": [
     "static/css/main.cb994009.css",
-    "static/js/main.dcc60c7e.js"
+    "static/js/main.524c3d07.js"
   ]
 }
