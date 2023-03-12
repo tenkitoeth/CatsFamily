@@ -44,7 +44,7 @@ function NavLabs() {
                         }}
                     >COMUNIDAD</a> 
 
-                    <a className="a-nav" href="/dady"
+                    <a className="a-nav" href="/555Labs/dady"
                         onClick={() => {
                             return (
                                 setHamburguer(!hamburguer),
