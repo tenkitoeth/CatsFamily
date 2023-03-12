@@ -6,7 +6,7 @@ function HeaderLabs() {
     return (
         <section id="header" className="container-header-labs">
 
-            <video className="video-fondo-labs" autoplay="autoplay" muted="muted" loop="true" defaultMuted playsinline preload="auto" >
+            <video className="video-fondo-labs" autoplay="autoplay" muted loop="true" defaultMuted playsinline preload="auto" >
                 <source src={videoPortadaLabs} type="video/mp4" />
             </video>
 
