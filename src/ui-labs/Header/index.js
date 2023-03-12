@@ -6,8 +6,8 @@ function HeaderLabs() {
     return (
         <section id="header" className="container-header-labs">
 
-            <video className="video-fondo-labs" autoplay="autoplay" loop="loop" muted defaultMuted playsinline oncontextmenu="return false;" preload="auto" >
-                <source src={videoPortadaLabs} type="video/mp4" autoplay="autoplay" loop="loop" />
+            <video className="video-fondo-labs" autoplay loop muted defaultMuted playsInline preload="auto" >
+                <source src={videoPortadaLabs} type="video/mp4" />
             </video>
 
             <h4 className="h4-header-labs">La tecnología NFT ha llegado para quedarse. <br />Únete a la revolución.</h4>
