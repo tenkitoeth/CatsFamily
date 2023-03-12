@@ -34,13 +34,14 @@ body {
 
 .general-container-contador-labs {
     width: 80%;
-    height: 100vh;
+    height: auto;
     margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    padding: 6rem 0;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
