@@ -39,7 +39,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -195,7 +195,6 @@ body {
 .container-numero-twitter-contador-labs,
 .container-numero-nft-contador-labs,
 .container-numero-discord-contador-labs {
-    height: 40%;
     margin-top: .4rem;
     display: flex;
     flex-direction: column;
@@ -204,7 +203,6 @@ body {
 }
 
 .container-simbolo-numero {
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
