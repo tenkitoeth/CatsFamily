@@ -14,7 +14,7 @@ function ContainerFooter() {
 
                     <a href="https://magiceden.io/marketplace/daddy_cats" target="_blank"><img className="magic-eden-logo" src={magic} alt="Buy a Daddy Cat on MagicEden" /></a>
 
-                    <a href="/"><img className="labs-logo-footer-cats" src={labs} alt="Visit the 555Labs website " /></a>
+                    <a href="/555Labs"><img className="labs-logo-footer-cats" src={labs} alt="Visit the 555Labs website " /></a>
                 </div>
 
                 <div className="condiciones-legales">
