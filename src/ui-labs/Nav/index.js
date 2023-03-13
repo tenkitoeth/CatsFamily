@@ -51,7 +51,7 @@ function NavLabs() {
                                 setHamburguer(!hamburguer),
                                 setHamEffect(!hamEffect)
                             )
-                        }}
+                        }} 
                     >CATS FAMILY</a>
                 </li>
             </ul>

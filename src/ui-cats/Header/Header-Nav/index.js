@@ -94,7 +94,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="../../Section-Contact">Contáctanos</a>
+                        <a href="/555Labs/#/Cats/Section-Contact">Contáctanos</a>
                     </li>
 
                     <li onClick={() => {
