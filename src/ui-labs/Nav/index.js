@@ -45,14 +45,14 @@ function NavLabs() {
                         }}
                     >COMUNIDAD</a> 
 
-                    <Link className="a-nav" href="/Cats"
+                    <a className="a-nav" href="/Cats"
                         onClick={() => {
                             return (
                                 setHamburguer(!hamburguer),
                                 setHamEffect(!hamEffect)
                             )
                         }}
-                    >CATS FAMILY</Link>
+                    >CATS FAMILY</a>
                 </li>
             </ul>
 
