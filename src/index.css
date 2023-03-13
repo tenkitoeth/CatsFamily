@@ -64,9 +64,6 @@ body{
   .contianer-pasos-section-adquirir-cats {
     margin-left: 60px;
   }
-  .img-roadmap {
-    width: 70vw;
-    }
 }
 /* 1024 */
 @media screen and (max-width: 1024px){
@@ -160,9 +157,6 @@ body{
   .img-adquirir {
     height: 350px;
   }
-  .img-roadmap {
-    width: 80vw;
-}
 }
 /* 850 */
 @media screen and (max-width: 768px){ 
@@ -237,9 +231,6 @@ body{
   .titulo-faq {
       margin-top: 2rem;
   }
-  .img-roadmap {
-    width: 85vw;
-    }
 }
 /* 650 */
 @media screen and (max-width: 600px){
@@ -361,9 +352,6 @@ body{
   .container-image-adquirir {
       height: 15vh;
   }
-  .img-roadmap {
-    width: 85vw;
-    }
 }
 /* 500 */
 @media screen and (max-width: 480px){
@@ -398,9 +386,6 @@ body{
       width: 250px;
       left: 0px;
   }
-  .img-roadmap {
-    width: 85vw;
-    }
   /* servicios */
   .contenido-servicios p{
       max-width: 100%;
@@ -519,9 +504,6 @@ body{
         margin-top: 2rem;
         margin-left: 4rem;
     }
-    .img-roadmap {
-        width: 90vw;
-    }
     .pregunta {
         column-gap: 3rem;
     }
@@ -555,9 +537,6 @@ body{
   /* utilidades */
   #utilidad {
       height: 90vh;
-  }
-  #contacto {
-      height: 100vh;
   }
   .derecha p{
       font-size: 14px;
@@ -656,9 +635,6 @@ body{
   .contenedor-preguntas div {
       position: sticky;
       top: 13vh;
-  }
-  #contacto {
-      height: 82vh;
   }
   form {
       width: 260px;

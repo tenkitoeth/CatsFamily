@@ -19,8 +19,8 @@
 }
 
 .img-roadmap {
-    width: 60vw;
-    height: fit-content;
+    width: 90%;
+    height: fit-auto;
     margin-top: 60px;
     border-radius: 20px;
     box-shadow: 0 0 35px -5px rgb(133, 133, 133);

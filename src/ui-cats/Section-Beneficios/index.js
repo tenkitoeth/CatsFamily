@@ -20,47 +20,47 @@ function BeneficiosSection() {
                     </div>
 
                     <div className="lista-servicios">
-                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="100">
+                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
                             <i className="fa-solid fa-user-gear"></i>
                             <p className="textsection3-p">Mentorías y cursos de programación</p>
                         </div>
 
-                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="100">
+                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
                             <i className="fa-solid fa-magnifying-glass"></i>
                             <p className="textsection3-p">Mentorías y cursos de trading</p>
                         </div>
 
-                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="100">
+                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
                             <i className="fa-solid fa-handshake"></i>
                             <p className="textsection3-p">Clases recurrentes sobre tecnología blockchain</p>
                         </div>
 
-                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="100">
+                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
                             <i className="fa-solid fa-people-group"></i>
                             <p className="textsection3-p">Análisis diario del mercado cripto y NFT.</p>
                         </div>
 
-                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="100">
+                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
                             <i className="fa-solid fa-bullhorn"></i>
                             <p className="textsection3-p">Apoyo y seguimiento en el lanzamiento de proyectos</p>
                         </div>
 
-                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="100">
+                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
                             <i className="fa-solid fa-chart-line"></i>
                             <p className="textsection3-p">Mentoría y asesoramiento legal</p>
                         </div>
 
-                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="100">
+                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
                             <i className="fa-solid fa-people-group"></i>
                             <p className="textsection3-p">Acceso a las whitelist de proyectos NFT más exclusivas</p>
                         </div>
 
-                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="100">
+                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
                             <i className="fa-solid fa-bullhorn"></i>
                             <p className="textsection3-p">Merchandising oficial de 555 LABS</p>
                         </div>
 
-                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="100">
+                        <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
                             <i className="fa-solid fa-people-group"></i>
                             <p className="textsection3-p">Eventos exclusivos de la comunidad</p>
                         </div>
