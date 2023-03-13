@@ -4,7 +4,7 @@ import { Header } from "../ui-cats/Header";
 import { VideoFondo } from "../ui-cats/Header/Header-Video";
 import { ContainerTitulo } from "../ui-cats/Header/Header-Container";
 import { NavHeader } from "../ui-cats/Header/Header-Nav";
-import { QuienesSomosSection } from "../ui-cats/Section-Quienes Somos/index";
+import { QuienesSomosSection } from "../ui-cats/Section-Quienes-Somos/index";
 import { SwiperCarousel } from "../ui-cats/Carousel/Carousel-swiper";
 import { UtilidadesSection } from "../ui-cats/Section-Utilidades";
 import { Roadmap } from "../ui-cats/Roadmap";

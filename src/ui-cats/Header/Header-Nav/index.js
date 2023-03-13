@@ -40,7 +40,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="#quienes-somos">¿Quiénes somos?</a>
+                        <a href="../../Section-Quienes-Somos">¿Quiénes somos?</a>
                     </li>
 
                     <li onClick={() => {
@@ -49,7 +49,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="#utilidad">Utilidades</a>
+                        <a href="../../Section-Utilidades">Utilidades</a>
                     </li>
 
                     <li onClick={() => {
@@ -58,7 +58,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="#roadmap">Roadmap</a>
+                        <a href="../../Roadmap">Roadmap</a>
                     </li>
 
                     <li onClick={() => {
@@ -67,7 +67,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="#adquirir">Adquirir NFTs</a>
+                        <a href="../../Section-Adquirir">Adquirir NFTs</a>
                     </li>
 
                     <li onClick={() => {
@@ -76,7 +76,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="#servicios">Beneficios</a>
+                        <a href="../../Section-Beneficios">Beneficios</a>
                     </li>
 
                     <li onClick={() => {
@@ -85,7 +85,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="#faq">FAQs</a>
+                        <a href="../../Section-Questions">FAQs</a>
                     </li>
 
                     <li onClick={() => {
@@ -94,7 +94,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="#contacto">Contáctanos</a>
+                        <a href="../../Section-Contact">Contáctanos</a>
                     </li>
 
                     <li onClick={() => {

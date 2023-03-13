@@ -12,7 +12,7 @@ function ContainerTitulo(){
 
             </div>
             
-            <a href="#quienes-somos" className="link-quienes-somos">
+            <a href="../../Section-Quienes-Somos" className="link-quienes-somos">
                 <i className="fa-solid fa-angles-down"></i>
             </a>
         </div>
