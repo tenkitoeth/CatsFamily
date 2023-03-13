@@ -21,7 +21,7 @@ function FooterLabs() {
                             <img className="magic-eden-logo" src={magic} alt="Buy a Daddy Cat on MagicEden" />
                         </a>
 
-                        <a href="/Cats">
+                        <a href="/555Labs/#/Cats">
                             <img className="labs-logo-footer-cats" src={cats} alt="Visit the 555Labs website" className="cats-logo" />
                         </a>
                     </div>
