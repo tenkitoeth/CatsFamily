@@ -6,10 +6,10 @@ import { Cats } from "./routes/AppUI";
 
 function App(){
     return (
-        <BrowserRouter basename="/555Labs">
+        <BrowserRouter>
             <Routes>
-                <Route exact path="/555Labs" element={<Labs />} />
-                <Route path="/Cats" element={<Cats />} />
+                <Route path="/555Labs" element={<Labs />}></Route>
+                <Route path="/Cats" element={<Cats />}></Route>
             </Routes>
         </BrowserRouter>
     )
