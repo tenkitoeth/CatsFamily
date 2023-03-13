@@ -1,6 +1,7 @@
 import { React, useState} from "react";
 import "./index.css"
 import logo from "../assets/logo-labs.png"
+import { Link } from "react-router-dom";
 
 function NavLabs() {
 
@@ -44,14 +45,14 @@ function NavLabs() {
                         }}
                     >COMUNIDAD</a> 
 
-                    <a className="a-nav" href="/Cats"
+                    <Link className="a-nav" href="/Cats"
                         onClick={() => {
                             return (
                                 setHamburguer(!hamburguer),
                                 setHamEffect(!hamEffect)
                             )
                         }}
-                    >CATS FAMILY</a>
+                    >CATS FAMILY</Link>
                 </li>
             </ul>
 
