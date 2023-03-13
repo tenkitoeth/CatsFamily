@@ -17,7 +17,7 @@ function AdquirirSection() {
             </div>
 
             <div className="contianer-pasos-section-adquirir-cats">
-                <article className="article-pasos-section-adquirir-cats" data-aos="fade-right" data-aos-offset="400">
+                <article className="article-pasos-section-adquirir-cats" data-aos="fade-right" data-aos-offset="200">
                     <div className="div-arrow-article-pasos-section-adquirir-cats" onClick={() => setActiveUno(!activeUno)}>
                         <i className={activeUno? "fa-solid fa-arrow-right i-activo" : "fa-solid fa-arrow-right"}></i>
                         <h3>Descargar una wallet de la red de Solana</h3>
@@ -28,7 +28,7 @@ function AdquirirSection() {
                     </div>
                 </article>
 
-                <article className="article-pasos-section-adquirir-cats" data-aos="fade-right" data-aos-offset="400">
+                <article className="article-pasos-section-adquirir-cats" data-aos="fade-right" data-aos-offset="200">
                     <div className="div-arrow-article-pasos-section-adquirir-cats" onClick={() => setActiveDos(!activeDos)}>
                         <i className={activeDos? "fa-solid fa-arrow-right i-activo" : "fa-solid fa-arrow-right"}></i>
                         <h3>¿Dónde puedo comprar un NFT de la colección?</h3>
@@ -39,7 +39,7 @@ function AdquirirSection() {
                     </div>
                 </article>
 
-                <article className="article-pasos-section-adquirir-cats" data-aos="fade-right" data-aos-offset="400">
+                <article className="article-pasos-section-adquirir-cats" data-aos="fade-right" data-aos-offset="200">
                     <div className="div-arrow-article-pasos-section-adquirir-cats" onClick={() => setActiveTres(!activeTres)}>
                         <i className={activeTres? "fa-solid fa-arrow-right i-activo" : "fa-solid fa-arrow-right"}></i>
                         <h3>Una vez comprado el NFT, ¿Qué hago?</h3>
