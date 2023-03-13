@@ -6,12 +6,10 @@ import { Cats } from "./routes/AppUI";
 
 function App(){
     return (
-        <HashRouter>
-            <Routes>
-                <Route path="/" element={<Labs />}></Route>
-                <Route path="/Cats" element={<Cats />}></Route>
-            </Routes>
-        </HashRouter>
+        <Routes>
+            <Route path="/" element={<Labs />}></Route>
+            <Route path="/Cats" element={<Cats />}></Route>
+        </Routes>
     )
 }
 
