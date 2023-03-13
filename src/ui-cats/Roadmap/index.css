@@ -11,6 +11,12 @@
 }
 
 
+.container-roadmap-section-roadmap-cats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .container-roadmap-section-roadmap-cats h2 {
     color: #fff;
     font-size: 70px;
