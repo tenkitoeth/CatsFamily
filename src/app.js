@@ -8,8 +8,8 @@ function App(){
     return (
         <BrowserRouter basename="/555Labs">
             <Routes>
-                <Route path="/555Labs" element={<Labs />}></Route>
-                <Route path="/Cats" element={<Cats />}></Route>
+                <Route path="/555Labs" element={<Labs />} />
+                <Route path="/Cats" element={<Cats />} />
             </Routes>
         </BrowserRouter>
     )
