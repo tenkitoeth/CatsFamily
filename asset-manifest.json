@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/555Labs/static/css/main.32761cfd.css",
-    "main.js": "/555Labs/static/js/main.53881aed.js",
+    "main.css": "/555Labs/static/css/main.a3d84cc9.css",
+    "main.js": "/555Labs/static/js/main.f4b5554e.js",
+    "static/media/Copia de 234.png": "/555Labs/static/media/Copia de 234.f526a78d795cbce26199.png",
+    "static/media/Copia de 373.png": "/555Labs/static/media/Copia de 373.7f4aa76d4a84b3d2d2e8.png",
+    "static/media/Copia de 252.png": "/555Labs/static/media/Copia de 252.49ff81cdd594f7ef66a7.png",
+    "static/media/Copia de 322.png": "/555Labs/static/media/Copia de 322.36fe3bc243460fa708b5.png",
+    "static/media/Copia de 77.png": "/555Labs/static/media/Copia de 77.82a90f0766a68e20b498.png",
+    "static/media/Copia de 150.png": "/555Labs/static/media/Copia de 150.a71e7387489f52208c7a.png",
+    "static/media/Copia de 0.png": "/555Labs/static/media/Copia de 0.bf35ff595cec64dd37d6.png",
+    "static/media/Copia de 43.png": "/555Labs/static/media/Copia de 43.ca16ef98112f0d35d302.png",
+    "static/media/Copia de 192.png": "/555Labs/static/media/Copia de 192.30e9e9a61c536efa01f9.png",
+    "static/media/Copia de 175.png": "/555Labs/static/media/Copia de 175.5d23b4a2044c4675d1a0.png",
     "static/media/fondo_portada.mp4": "/555Labs/static/media/fondo_portada.13f507ef4bf42a261614.mp4",
     "static/media/video-portada-bajo.mp4": "/555Labs/static/media/video-portada-bajo.6535db8c25fa623352c6.mp4",
-    "static/media/20.webp": "/555Labs/static/media/20.5afbd5e30563e9320e11.webp",
-    "static/media/14.webp": "/555Labs/static/media/14.b04e9f0cef6594fea4ab.webp",
     "static/media/logo-labs.png": "/555Labs/static/media/logo-labs.296240c1a524064556ea.png",
-    "static/media/12.webp": "/555Labs/static/media/12.967c663cb9b28209dd9b.webp",
-    "static/media/0.webp": "/555Labs/static/media/0.8f796dca770177ccebdd.webp",
-    "static/media/8.webp": "/555Labs/static/media/8.5a40f1ac0ccd1416c239.webp",
     "static/media/egipcio-min.webp": "/555Labs/static/media/egipcio-min.a8cc448ebc0b67e60feb.webp",
-    "static/media/11.webp": "/555Labs/static/media/11.83416f483529147d2320.webp",
-    "static/media/21.webp": "/555Labs/static/media/21.5e71f64437c76255c5a0.webp",
-    "static/media/6.webp": "/555Labs/static/media/6.e84fb5de06b77ae70337.webp",
-    "static/media/2.webp": "/555Labs/static/media/2.71d5199e6a4eaff45222.webp",
     "static/media/roadmap.png": "/555Labs/static/media/roadmap.9eed95597de6708637f8.png",
     "static/media/daddy_utilidad-removebg-preview.png": "/555Labs/static/media/daddy_utilidad-removebg-preview.bf2c9e740e76f8ce5d36.png",
-    "static/media/28.webp": "/555Labs/static/media/28.7e257b1a1495ea39ac84.webp",
     "static/media/logo-cats.webp": "/555Labs/static/media/logo-cats.9cabdceaff5ff24b31d0.webp",
     "static/media/MagicEden.png": "/555Labs/static/media/MagicEden.4f4b336320fe915b12c7.png",
     "static/media/LOGO-1024x1024.webp": "/555Labs/static/media/LOGO-1024x1024.77ba5bd4b473864e55e9.webp",
     "index.html": "/555Labs/index.html",
     "static/media/plus.svg": "/555Labs/static/media/plus.18e46bbfa44de388026c38f00afdd67b.svg",
-    "main.32761cfd.css.map": "/555Labs/static/css/main.32761cfd.css.map",
-    "main.53881aed.js.map": "/555Labs/static/js/main.53881aed.js.map"
+    "main.a3d84cc9.css.map": "/555Labs/static/css/main.a3d84cc9.css.map",
+    "main.f4b5554e.js.map": "/555Labs/static/js/main.f4b5554e.js.map"
   },
   "entrypoints": [
-    "static/css/main.32761cfd.css",
-    "static/js/main.53881aed.js"
+    "static/css/main.a3d84cc9.css",
+    "static/js/main.f4b5554e.js"
   ]
 }
