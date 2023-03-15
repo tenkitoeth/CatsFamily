@@ -68,7 +68,7 @@ function SectionContadorLabs() {
                         <div className="container-simbolo-numero">
                             <p className="simbolo-numero-nft-contador-labs simbolo-discord">+</p>
                             <ScrollTriggre onEnter={() => setCounterOnTres(true)} onExit={() => setCounterOnTres(false)}>
-                                {counterOnTres && <CountUp start={0} end={500} delay={0} duration={4}>
+                                {counterOnTres && <CountUp start={0} end={3500} delay={0} duration={4}>
                                     {({ countUpRef }) => (
                                         <span ref={countUpRef} className="p-numero-contador-labs" />
                                     )}

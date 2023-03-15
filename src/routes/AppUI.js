@@ -9,6 +9,7 @@ import { SwiperCarousel } from "../ui-cats/Carousel/Carousel-swiper";
 import { UtilidadesSection } from "../ui-cats/Section-Utilidades";
 import { Roadmap } from "../ui-cats/Roadmap";
 import { AdquirirSection } from "../ui-cats/Section-Adquirir";
+import { Socios } from "../ui-cats/Socios";
 import { BeneficiosSection } from "../ui-cats/Section-Beneficios";
 import { QuestionsSection } from "../ui-cats/Section-Questions";
 import { ContactSection } from "../ui-cats/Section-Contact"
@@ -30,16 +31,17 @@ function Cats(){
             </Header>
 
             <QuienesSomosSection />
-
             <SwiperCarousel />
 
             <UtilidadesSection />
+
+            <BeneficiosSection />
 
             <Roadmap /> 
 
             <AdquirirSection /> 
 
-            <BeneficiosSection />
+            <Socios />
 
             <QuestionsSection />
 

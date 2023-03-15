@@ -16,6 +16,10 @@
     justify-content: center;
 }
 
+.derecha h2 {
+    font-weight: 500;
+}
+
 
 .derecha p{
     text-align: center;

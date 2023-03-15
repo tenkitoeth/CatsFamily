@@ -25,6 +25,10 @@
     color: var(--white);
 }
 
+.contenido-quienes-somos h2 {
+    font-weight: 500;
+}
+
 .textosection1-p {
     max-width: 60%;
     text-align: center;

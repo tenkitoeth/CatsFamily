@@ -3,12 +3,12 @@
     width: 100%;
     height: auto;
     position: relative;
-    background-color: #fff;
+    background-color: #070707;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 160px 0;
+    padding: 100px 0 160px 0;
 }
 
 .container-titulo-section-adquirir-cats {
@@ -17,8 +17,9 @@
 }
 
 .h2-titulo-section-adquirir-cats {
-    color: #000;
+    color: rgb(255, 255, 255);
     font-size: 6rem;
+    font-weight: 500;
 }
 
 .contianer-pasos-section-adquirir-cats {
@@ -51,7 +52,7 @@
 .div-arrow-article-pasos-section-adquirir-cats i{
     display: block;
     font-size: 32px;
-    color: #000;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     transition: transform .4s ease;
 }
@@ -62,7 +63,7 @@
 
 .div-arrow-article-pasos-section-adquirir-cats h3 {
     font-size: 28px;
-    color: #000;
+    color: rgb(255, 255, 255);
     margin-left: 20px;
     letter-spacing: 1px;
     font-weight: 500;
@@ -86,7 +87,7 @@
 .div-texto-dos-article-pasos-section-adquirir-cats p, 
 .div-texto-tres-article-pasos-section-adquirir-cats p {
     font-size: 20px;
-    color: #000;
+    color: rgb(199, 199, 199);
     letter-spacing: 1px;
     line-height: 28px;
 }
@@ -94,7 +95,7 @@
 .div-texto-uno-article-pasos-section-adquirir-cats p a, 
 .div-texto-dos-article-pasos-section-adquirir-cats p a, 
 .div-texto-tres-article-pasos-section-adquirir-cats p a {
-    color: #000;
+    color: rgb(199, 199, 199);
     transition: all .3s ease-in-out;
 }
 

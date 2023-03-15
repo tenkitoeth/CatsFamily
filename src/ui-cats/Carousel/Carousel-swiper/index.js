@@ -2,16 +2,16 @@ import {React, useRef} from "react";
 import "../index.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {Navigation, EffectFade, Autoplay, Controller} from "swiper"
-import image1 from "../../assets/0.webp"
-import image2 from "../../assets/11.webp"
-import image3 from "../../assets/12.webp"
-import image4 from "../../assets/2.webp"
-import image5 from "../../assets/21.webp"
-import image6 from "../../assets/14.webp"
-import image7 from "../../assets/28.webp"
-import image8 from "../../assets/6.webp"
-import image9 from "../../assets/8.webp"
-import image10 from "../../assets/20.webp"
+import image1 from "../../assets/Copia de 0.png"
+import image2 from "../../assets/Copia de 150.png"
+import image3 from "../../assets/Copia de 175.png"
+import image4 from "../../assets/Copia de 192.png"
+import image5 from "../../assets/Copia de 234.png"
+import image6 from "../../assets/Copia de 252.png"
+import image7 from "../../assets/Copia de 322.png"
+import image8 from "../../assets/Copia de 373.png"
+import image9 from "../../assets/Copia de 43.png"
+import image10 from "../../assets/Copia de 77.png"
 
 
 function SwiperCarousel (){

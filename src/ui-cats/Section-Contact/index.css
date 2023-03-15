@@ -1,7 +1,7 @@
 #contacto{
     position: relative;
     height: auto;
-    background-color: #070707;
+    background-color: #ffffff;
     padding: 6rem 0;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
@@ -12,20 +12,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: var(--white);
+    color: #070707;
+}
+
+.contenido-contacto h2 {
+    font-weight: 500;
 }
 
 .textsection-p {
     max-width: 65%;
     text-align: center;
     font-size: 20px;
-    color: var(--grey-fondooscuro);
+    color: rgb(43, 43, 43);
     margin-top: 20px;
 }
 
 
 .textsection-p--span {
-    color: var(--white);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
 }
 
 form{
@@ -37,7 +42,7 @@ form{
     padding: 20px;
     border-radius: 10px;
     background-color: #2C2C2C;
-    box-shadow: 0 0 10px 0 #fff;
+    box-shadow: 0 0 10px 0 #070707;
 }
 
 

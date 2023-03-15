@@ -1,5 +1,12 @@
 import React from "react";
-import "./index.css"
+import "./index.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChartColumn } from '@fortawesome/free-solid-svg-icons'
+import { faMoneyBillTrendUp } from '@fortawesome/free-solid-svg-icons'
+import { faUserGroup } from '@fortawesome/free-solid-svg-icons'
+import { faGavel } from '@fortawesome/free-solid-svg-icons'
+import { faShirt } from '@fortawesome/free-solid-svg-icons'
+import { faListCheck } from '@fortawesome/free-solid-svg-icons'
 
 function BeneficiosSection() {
     return (
@@ -26,37 +33,36 @@ function BeneficiosSection() {
                         </div>
 
                         <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
-                            <i className="fa-solid fa-magnifying-glass"></i>
+                            <FontAwesomeIcon icon={faChartColumn} className="icon-solid"/>
                             <p className="textsection3-p">Mentorías y cursos de trading</p>
                         </div>
 
                         <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
-                            <i className="fa-solid fa-handshake"></i>
                             <p className="textsection3-p">Clases recurrentes sobre tecnología blockchain</p>
                         </div>
 
                         <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
-                            <i className="fa-solid fa-people-group"></i>
+                            <FontAwesomeIcon icon={faMoneyBillTrendUp} className="icon-solid" />
                             <p className="textsection3-p">Análisis diario del mercado cripto y NFT.</p>
                         </div>
 
                         <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
-                            <i className="fa-solid fa-bullhorn"></i>
+                            <FontAwesomeIcon icon={faUserGroup} className="icon-solid" />
                             <p className="textsection3-p">Apoyo y seguimiento en el lanzamiento de proyectos</p>
                         </div>
 
                         <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
-                            <i className="fa-solid fa-chart-line"></i>
+                            <FontAwesomeIcon icon={faGavel} className="icon-solid" />
                             <p className="textsection3-p">Mentoría y asesoramiento legal</p>
                         </div>
 
                         <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
-                            <i className="fa-solid fa-people-group"></i>
+                            <FontAwesomeIcon icon={faListCheck} className="icon-solid" />
                             <p className="textsection3-p">Acceso a las whitelist de proyectos NFT más exclusivas</p>
                         </div>
 
                         <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
-                            <i className="fa-solid fa-bullhorn"></i>
+                            <FontAwesomeIcon icon={faShirt} className="icon-solid" />
                             <p className="textsection3-p">Merchandising oficial de 555 LABS</p>
                         </div>
 

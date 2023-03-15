@@ -21,6 +21,7 @@
 
 .contenido-servicios h2 {
     letter-spacing: .2rem;
+    font-weight: 500;
 }
 
 .textsection3-p {
@@ -61,6 +62,7 @@
 
 .elemento-lista{
     height: 100%;
+    padding: 24px 8px 16px 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,8 +73,7 @@
 
 
 .elemento-lista i{
-    font-size: 35px;
-    margin-top: 20px;
+    font-size: 36px;
 }
 
 
@@ -82,4 +83,8 @@
     font-size: 18px;
     width: 100%;
     text-align: center;
+}
+
+.icon-solid {
+    font-size: 36px;
 }

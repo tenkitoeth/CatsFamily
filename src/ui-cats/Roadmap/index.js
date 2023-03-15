@@ -9,14 +9,6 @@ function Roadmap() {
                 <h2>ROADMAP</h2>
                 <img src={roadmap} className="img-roadmap" />
             </div>
-
-            <div className="container-partners-section-roadmap-cats">
-                <h2>SOCIOS</h2>
-                {/* <img src={} className="" />
-                <img src={} className="" />
-                <img src={} className="" />
-                <img src={} className="" /> */}
-            </div>
         </section>
     )
 }
