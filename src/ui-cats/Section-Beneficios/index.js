@@ -7,6 +7,7 @@ import { faUserGroup } from '@fortawesome/free-solid-svg-icons'
 import { faGavel } from '@fortawesome/free-solid-svg-icons'
 import { faShirt } from '@fortawesome/free-solid-svg-icons'
 import { faListCheck } from '@fortawesome/free-solid-svg-icons'
+import { faBitcoinSign } from '@fortawesome/free-solid-svg-icons'
 
 function BeneficiosSection() {
     return (
@@ -23,7 +24,7 @@ function BeneficiosSection() {
                     </p>
 
                     <div className="botones">
-                        <a href="#contacto" className="btn-ghost primary contactanos">contáctanos <i className="fa-solid fa-envelope-open-text"></i></a>
+                        <a href="mailto:kittycatssol@protonmail.com" className="btn-ghost primary contactanos">contáctanos <i className="fa-solid fa-envelope-open-text"></i></a>
                     </div>
 
                     <div className="lista-servicios">
@@ -38,6 +39,7 @@ function BeneficiosSection() {
                         </div>
 
                         <div className="elemento-lista" data-aos="zoom-in-up"  data-aos-offset="50">
+                            <FontAwesomeIcon icon={faBitcoinSign} className="icon-solid"/>
                             <p className="textsection3-p">Clases recurrentes sobre tecnología blockchain</p>
                         </div>
 

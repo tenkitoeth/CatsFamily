@@ -58,6 +58,7 @@ body {
 }
 
 .p-services-labs {
+    width: 80%;
     font-size: 2.8rem;
     font-weight: 400;
     text-align: center;
@@ -108,7 +109,7 @@ body {
 
 .article-container-tres-services-labs  {
     width: 85%;
-    height: 40vh;
+    height: 45vh;
     background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(1rem);
     text-align: center;
@@ -118,6 +119,7 @@ body {
     box-shadow: 0 0 15px 0 #fff;
     display: flex;
     flex-direction: column;
+    row-gap: 16px;
     justify-content: flex-start;
     align-items: center;
     transition: all .3s ease-in-out;
@@ -152,6 +154,11 @@ body {
     animation: float-tres 3.75s ease-in-out infinite;
 } 
 
+.icono-services {
+    font-size: 35px;
+    color: rgb(224, 224, 224);
+}
+
 .h3-article-services-labs {
     background: linear-gradient(90deg, #ffc480 10%, #ff5100 80%);
     background-clip: text;
@@ -163,6 +170,26 @@ body {
     letter-spacing: -.002em;
 }
 
+.btn-labs-escribirnos {
+    font-size: 1.8rem;
+    color: #fff;
+    border: solid 2px #dc4738;
+    background-color: #dc4738;
+    border-radius: 4px;
+    padding: .8rem 2.8rem;
+    margin-left: .8rem;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.btn-labs-escribirnos i {
+    margin-left: .4rem;
+}
+
+.btn-labs-escribirnos:hover {
+    background-color: #070707;
+    color: #dc4738;
+}
 
 .p-article-services-labs {
     color: var(--subtext-color);
@@ -170,7 +197,7 @@ body {
     font-weight: 400;
     letter-spacing: -.002em;
     line-height: 2.4rem;
-    margin-top: 2rem;
+    margin-top: .8rem;
 }
 
 
@@ -200,14 +227,14 @@ body {
     font-family: var(--font-family-titulo);
 }
 
-.p-container-cuatro-services-labs a {
+/* .p-container-cuatro-services-labs a {
     color: var(--subtext-color);
     transition: color .2s ease-in-out;
 }
 
 .p-container-cuatro-services-labs a:hover {
     color: #dc4738;
-}
+} */
 
 
 @keyframes float {

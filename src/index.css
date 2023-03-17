@@ -675,7 +675,7 @@ body{
         top: 35rem;
     }
     .article-container-tres-services-labs {
-        height: 45vh;
+        height: 47vh;
     }
 }
 
@@ -787,9 +787,6 @@ body{
         row-gap: 8rem;
         margin-top: 8rem;
     }
-    .article-container-tres-services-labs {
-        height: 50vh;
-    }
     .h3-article-services-labs {
         font-size: 2.4rem;
     }
@@ -884,7 +881,7 @@ body{
         height: 70vh;
     }
     .article-container-tres-services-labs {
-        height: 40vh;
+        height: 50vh;
     }
     .h3-article-services-labs {
         font-size: 2.2rem;
@@ -981,20 +978,17 @@ body{
     .h3-article-services-labs {
         font-size: 2rem;
     }
-    .article-container-tres-services-labs {
-        height: 50vh;
-    }
     .uno,
     .dos {
-        height: 47vh;
+        height: 56vh;
     }
     .tres,
     .cuatro {
-        height: 48vh;
+        height: 60vh;
     }
     .cinco,
     .seis {
-        height: 35vh;
+        height: 40vh;
         margin-top: -12rem;
     }
     .p-article-services-labs {
@@ -1124,6 +1118,7 @@ body{
     }
     .article-container-tres-services-labs {
         height: auto;
+        padding: 4rem 2rem;
     }
     .h3-article-services-labs {
         font-size: 2.6rem;
@@ -1207,7 +1202,7 @@ body{
         font-size: 2.4rem;
     }
     .p-article-services-labs {
-        margin-top: 3.2rem;
+        margin-top: 1.2rem;
     }
     .container-cuatro-services-labs {
         margin-top: 10rem;

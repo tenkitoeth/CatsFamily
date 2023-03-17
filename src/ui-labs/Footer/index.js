@@ -9,11 +9,11 @@ function FooterLabs() {
             <div className="contenedor">
                 <div className="contenido-footer">
                     <div className="rrss">
-                        <a href="https://twitter.com/KittyCatsSOL" target="_blank">
+                        <a href="https://twitter.com/CatsFamilyNFT" target="_blank">
                             <i className="fa-brands fa-twitter fa-footer a-twitter-footer"></i>
                         </a>
 
-                        <a href="discord.gg/JpfC8jRZhW" target="_blank">
+                        <a href="https://discord.com/invite/JpfC8jRZhW" target="_blank">
                             <i className="fa-brands fa-discord fa-footer a-discord-footer"></i>
                         </a>
 

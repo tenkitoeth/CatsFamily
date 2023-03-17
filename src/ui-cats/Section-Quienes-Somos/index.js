@@ -16,7 +16,7 @@ function QuienesSomosSection(){
                             Únete a Cats Family <i className="fa-solid fa-arrow-right-long"></i>
                         </a>
 
-                        <a href="#" target="_blank" className="btn-ghost secundary" data-aos="fade-left">
+                        <a href="https://discord.com/invite/JpfC8jRZhW" target="_blank" className="btn-ghost secundary" data-aos="fade-left">
                             Discord <i className="fa-brands fa-discord"></i>
                         </a>
                     </div>

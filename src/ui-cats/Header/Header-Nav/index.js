@@ -103,7 +103,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="https://twitter.com/KittyCatsSOL" target="_blank">
+                        <a href="https://twitter.com/CatsFamilyNFT" target="_blank">
                             <span>Twitter</span>
                             <i className="fa-brands fa-twitter"></i>
                         </a>
