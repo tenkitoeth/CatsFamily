@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/555Labs/static/css/main.a3d84cc9.css",
-    "main.js": "/555Labs/static/js/main.f4b5554e.js",
+    "main.css": "/555Labs/static/css/main.d3b1344f.css",
+    "main.js": "/555Labs/static/js/main.cc56404a.js",
     "static/media/Copia de 234.png": "/555Labs/static/media/Copia de 234.f526a78d795cbce26199.png",
     "static/media/Copia de 373.png": "/555Labs/static/media/Copia de 373.7f4aa76d4a84b3d2d2e8.png",
     "static/media/Copia de 252.png": "/555Labs/static/media/Copia de 252.49ff81cdd594f7ef66a7.png",
@@ -14,20 +14,28 @@
     "static/media/Copia de 175.png": "/555Labs/static/media/Copia de 175.5d23b4a2044c4675d1a0.png",
     "static/media/fondo_portada.mp4": "/555Labs/static/media/fondo_portada.13f507ef4bf42a261614.mp4",
     "static/media/video-portada-bajo.mp4": "/555Labs/static/media/video-portada-bajo.6535db8c25fa623352c6.mp4",
+    "static/media/socio2.png": "/555Labs/static/media/socio2.c2c918d184bd32bd61e3.png",
     "static/media/logo-labs.png": "/555Labs/static/media/logo-labs.296240c1a524064556ea.png",
+    "static/media/socio3.png": "/555Labs/static/media/socio3.5ef165db95e57fb8e1bb.png",
     "static/media/egipcio-min.webp": "/555Labs/static/media/egipcio-min.a8cc448ebc0b67e60feb.webp",
+    "static/media/daddy_utilidad-removebg-preview.png": "/555Labs/static/media/daddy_utilidad-removebg-preview.3e7579ae94a3ca1130d1.png",
     "static/media/roadmap.png": "/555Labs/static/media/roadmap.9eed95597de6708637f8.png",
-    "static/media/daddy_utilidad-removebg-preview.png": "/555Labs/static/media/daddy_utilidad-removebg-preview.bf2c9e740e76f8ce5d36.png",
     "static/media/logo-cats.webp": "/555Labs/static/media/logo-cats.9cabdceaff5ff24b31d0.webp",
+    "static/media/socio5.png": "/555Labs/static/media/socio5.842ee9341a1232f55c29.png",
+    "static/media/socio4.png": "/555Labs/static/media/socio4.197dfaa240239459707b.png",
     "static/media/MagicEden.png": "/555Labs/static/media/MagicEden.4f4b336320fe915b12c7.png",
+    "static/media/socio7.png": "/555Labs/static/media/socio7.9322e99d5d626fad465b.png",
+    "static/media/socio6.png": "/555Labs/static/media/socio6.b66ac01777cb5ca2aa5c.png",
     "static/media/LOGO-1024x1024.webp": "/555Labs/static/media/LOGO-1024x1024.77ba5bd4b473864e55e9.webp",
+    "static/media/socio8.png": "/555Labs/static/media/socio8.b51d70b2f8eb116f119d.png",
+    "static/media/socio1.png": "/555Labs/static/media/socio1.bd287ade0498a9d41509.png",
     "index.html": "/555Labs/index.html",
     "static/media/plus.svg": "/555Labs/static/media/plus.18e46bbfa44de388026c38f00afdd67b.svg",
-    "main.a3d84cc9.css.map": "/555Labs/static/css/main.a3d84cc9.css.map",
-    "main.f4b5554e.js.map": "/555Labs/static/js/main.f4b5554e.js.map"
+    "main.d3b1344f.css.map": "/555Labs/static/css/main.d3b1344f.css.map",
+    "main.cc56404a.js.map": "/555Labs/static/js/main.cc56404a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3d84cc9.css",
-    "static/js/main.f4b5554e.js"
+    "static/css/main.d3b1344f.css",
+    "static/js/main.cc56404a.js"
   ]
 }
