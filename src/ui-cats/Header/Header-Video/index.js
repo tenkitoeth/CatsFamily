@@ -4,7 +4,7 @@ import videoPortada from "./fondo_portada.mp4"
 
 function VideoFondo(){
     return (
-        <video className="video-fondo" autoplay="autoplay" loop="true" muted defaultMuted playsinline preload="auto" > 
+        <video className="video-fondo" autoplay="autoplay" loop="true" muted defaultMuted playsinline="true" disablePictureInPicture="true" >
             <source src={videoPortada} type="video/mp4" />
         </video>
     )
