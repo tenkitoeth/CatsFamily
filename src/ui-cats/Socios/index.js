@@ -14,35 +14,35 @@ function Socios() {
         <section className="section-socios">
                 <h2 className="h2-socios">SOCIOS</h2>
                 <div className="container-div-imagenes">
-                    <div className="div-imagenes-socios" data-aos="fade-up" data-aos-offset="400">
+                    <div className="div-imagenes-socios" >
                         <img src={socio1} className="socios socio1"/>
                     </div>
                     
-                    <div className="div-imagenes-socios" data-aos="fade-up" data-aos-offset="400">
+                    <div className="div-imagenes-socios" >
                         <img src={socio2} className="socios socio2"/>
                     </div>
 
-                    <div className="div-imagenes-socios" data-aos="fade-up" data-aos-offset="400">
+                    <div className="div-imagenes-socios" >
                         <img src={socio3} className="socios socio3"/>
                     </div>
 
-                    <div className="div-imagenes-socios" data-aos="fade-up" data-aos-offset="400">
+                    <div className="div-imagenes-socios" >
                         <img src={socio4} className="socios socio4"/>
                     </div>
 
-                    <div className="div-imagenes-socios" data-aos="fade-up" data-aos-offset="400">
+                    <div className="div-imagenes-socios" >
                         <img src={socio5} className="socios socio5"/>
                     </div>
 
-                    <div className="div-imagenes-socios" data-aos="fade-up" data-aos-offset="400">
+                    <div className="div-imagenes-socios" >
                         <img src={socio6} className="socios socio6"/>
                     </div>
                     
-                    <div className="div-imagenes-socios" data-aos="fade-up" data-aos-offset="400">
+                    <div className="div-imagenes-socios" >
                         <img src={socio7} className="socios socio7"/>
                     </div>
 
-                    <div className="div-imagenes-socios" data-aos="fade-up" data-aos-offset="400">
+                    <div className="div-imagenes-socios" >
                         <img src={socio8} className="socios socio8"/>
                     </div>
                 </div>
