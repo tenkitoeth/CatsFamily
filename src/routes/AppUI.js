@@ -17,6 +17,8 @@ import { Footer } from "../ui-cats/Footer ";
 import { ContainerFooter } from "../ui-cats/Footer /Footer - Container";
 import { AutorCats } from "../ui-cats/Autor"
 import { Button } from "../ui-cats/Button";
+import { SectionServices555Labs } from "../ui-cats/Section-Services";
+import { SectionContador555Labs } from "../ui-cats/Section-Contador";
 
 
 function Cats(){
@@ -36,6 +38,10 @@ function Cats(){
             <UtilidadesSection />
 
             <BeneficiosSection />
+
+            <SectionServices555Labs />
+
+            <SectionContador555Labs />
 
             <Roadmap /> 
 

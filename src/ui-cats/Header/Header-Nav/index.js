@@ -40,7 +40,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="../../Section-Quienes-Somos">¿Quiénes somos?</a>
+                        <a className="a-nav-cats" href="../../Section-Quienes-Somos">¿Quiénes somos?</a>
                     </li>
 
                     <li onClick={() => {
@@ -49,7 +49,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="../../Section-Utilidades">Utilidades</a>
+                        <a className="a-nav-cats" href="../../Section-Utilidades">Utilidades</a>
                     </li>
 
                     <li onClick={() => {
@@ -58,7 +58,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="../../Roadmap">Roadmap</a>
+                        <a className="a-nav-cats" href="../../Section-Beneficios">Beneficios</a>
                     </li>
 
                     <li onClick={() => {
@@ -67,7 +67,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="../../Section-Adquirir">Adquirir NFTs</a>
+                        <a className="a-nav-cats" href="../../Section-Beneficios">Servicios</a>
                     </li>
 
                     <li onClick={() => {
@@ -76,7 +76,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="../../Section-Beneficios">Beneficios</a>
+                        <a className="a-nav-cats" href="../../Roadmap">Roadmap</a>
                     </li>
 
                     <li onClick={() => {
@@ -85,7 +85,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="../../Section-Questions">FAQs</a>
+                        <a className="a-nav-cats" href="../../Section-Adquirir">Adquirir NFTs</a>
                     </li>
 
                     <li onClick={() => {
@@ -94,7 +94,7 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="/555Labs/#/Cats/Section-Contact">Contáctanos</a>
+                        <a className="a-nav-cats" href="../../Section-Questions">FAQs</a>
                     </li>
 
                     <li onClick={() => {
@@ -103,7 +103,16 @@ function NavHeader({ menuBurguer }){
                             setHamEffect(!hamEffect)
                         )
                     }}>
-                        <a href="https://twitter.com/CatsFamilyNFT" target="_blank">
+                        <a className="a-nav-cats" href="/555Labs/#/Cats/Section-Contact">Contáctanos</a>
+                    </li>
+
+                    <li onClick={() => {
+                        return (
+                            setHamburguer(!hamburguer),
+                            setHamEffect(!hamEffect)
+                        )
+                    }}>
+                        <a className="a-twitter-nav-cats" href="https://twitter.com/CatsFamilyNFT" target="_blank">
                             <span>Twitter</span>
                             <i className="fa-brands fa-twitter"></i>
                         </a>

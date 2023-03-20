@@ -50,37 +50,90 @@
 }
 .menu li{
     list-style: none;
-    margin: 20px;
+    margin: 20px 8px;
 }
-.menu li a{
+.a-nav-cats{
     width: 100%;
     display: block;
-    padding: 10px 0px;
+    padding: 10px 8px;
     text-decoration: none;
     color: var(--white);
     font-size: 18px;
     transition: 0.5s;
 }
-.menu li a:hover{
+/* .a-nav-cats:hover{
     text-decoration: underline;
-    color: var(--purple);
-}
-.menu li a span{
+} */
+.a-nav-cats span{
     display: none;
 }
-.menu li a img{
+.a-nav-cats img{
     transition: 0.5s;
     width: 42px;
 }
-.menu li a i{
+.a-nav-cats i{
     font-size: 24px;
     transition: 0.3s;
 }
-.menu li a i:hover, .menu li a img:hover{
+
+.a-nav-cats:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}  
+
+.a-nav-cats::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+  
+.a-nav-cats:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+  
+.a-nav-cats::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: rgba(255, 255, 255, 0.842);
+    z-index: -1;
+    transition: transform .4s ease;
+}
+  
+.a-nav-cats {
+    position: relative;
+}
+ 
+.a-twitter-nav-cats {
+    width: 100%;
+    display: block;
+    padding: 10px 8px;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+}
+
+.a-twitter-nav-cats span {
+    display: none;
+}
+
+.a-twitter-nav-cats i{
+    font-size: 24px;
+    transition: transform .3s ease-in-out;
+}
+
+.a-twitter-nav-cats i:hover, .a-twitter-nav-cats img:hover{
     transform: scale(1.2);
     color: #3396e9;
 }
 
+@media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+}
 
 
 #hamburguer{

@@ -47,10 +47,10 @@ body{
       font-size: 15px;
   }
   .menu li{
-      margin: 14px;
+    margin: 14px 8px;
   }
   .menu li a{
-      font-size: 2rem;
+      font-size: 1.6rem;
   }
   .menu li a img{
       width: 35px;
@@ -64,6 +64,9 @@ body{
   .contianer-pasos-section-adquirir-cats {
     margin-left: 60px;
   }
+  .article-container-tres-services-labs {
+    height: 40vh;
+}
 }
 /* 1024 */
 @media screen and (max-width: 1024px){
@@ -85,10 +88,11 @@ body{
       text-align: left;
       transition: all .5s;
       background: var(--background-black);
+      overflow-y: auto;
   }
   .menu li{
       width: 85%;
-      padding-bottom: 10px;
+      padding-bottom: 4px;
       margin: 12px auto 6px auto;
       border-bottom: 1px solid #a7a7ad;
   }
@@ -109,6 +113,7 @@ body{
   /* hacer funcionar al menu */
   .menu.show{
       left: 0;
+      overflow-y: auto;
   }
   /* textos generales */
   h1{
@@ -133,6 +138,9 @@ body{
   .derecha{
       width: 70%;
       right: 0%;
+  }
+  .container-uno-services-labs {
+    width: 80%;
   }
   .derecha p{
       margin-top: 20px;
@@ -205,6 +213,9 @@ body{
   .general-section-adquirir-cats {
     padding: 12rem 0 16rem 0;
   }
+  .article-container-tres-services-labs {
+    height: 45vh;
+  }
   .contenido-servicios p {
       max-width: 100%;
   }
@@ -222,6 +233,18 @@ body{
   }
   .titulo-faq {
       margin-top: 2rem;
+  }
+  .section-socios {
+      padding: 6rem 2rem 8rem 2rem;
+  }
+  .container-div-imagenes {
+      width: 80%;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      margin-top: 4rem;
+      padding: 3.2rem;
+      grid-column-gap: 32px;
+      grid-row-gap: 4rem;
   }
 }
 /* 650 */
@@ -290,9 +313,45 @@ body{
   .div-arrow-article-pasos-section-adquirir-cats i {
       font-size: 28px;
   }
+  .uno,
+    .dos {
+        height: 50vh;
+    }
+    .tres,
+    .cuatro {
+        height: 50vh;
+    }
+    .cinco,
+    .seis {
+        height: 37vh;
+        margin-top: -12rem;
+    }
+  
+    .p-container-cuatro-services-labs {
+        font-size: 2.4rem;
+    }
 
   .h2-titulo-section-adquirir-cats {
       font-size: 36px;
+  }
+
+  .h2-contador-labs {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+  }
+
+  .h2-services-labs {
+      width: 100%;
+  }
+
+  .container-uno-services-labs {
+      width: 90%;
+  }
+
+  .container-general-twitter-contador-labs, 
+  .container-general-nft-contador-labs, 
+  .container-general-discord-contador-labs {
+    padding: 3.2rem 2rem;
   }
 
   .contianer-pasos-section-adquirir-cats{
@@ -445,6 +504,10 @@ body{
   form button{
       margin-top: 20px;
   }
+  .container-div-imagenes {
+      width: 90%;
+      grid-row-gap: 3.2rem;
+  }
 }
 
 @media screen and (max-width: 393px){
@@ -499,6 +562,12 @@ body{
     .pregunta {
         column-gap: 3rem;
     }
+    .container-div-imagenes {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        padding: 4rem;
+    }
+
 }
 /* 375 */
 @media screen and (max-width: 375px){
@@ -528,7 +597,7 @@ body{
   
   /* utilidades */
   #utilidad {
-      height: 90vh;
+      height: 100vh;
   }
   .derecha p{
       font-size: 14px;
@@ -674,9 +743,7 @@ body{
     .ola {
         top: 35rem;
     }
-    .article-container-tres-services-labs {
-        height: 47vh;
-    }
+    
 }
 
 @media screen and (max-width: 1024px) {
@@ -776,9 +843,6 @@ body{
     }
     .h1-services-labs {
         font-size: 4rem;
-    }
-    .container-uno-services-labs {
-        width: 80%;
     }
     .container-tres-services-labs {
         width: 80%;
@@ -880,9 +944,7 @@ body{
     .general-container-contador-labs {
         height: 70vh;
     }
-    .article-container-tres-services-labs {
-        height: 50vh;
-    }
+    
     .h3-article-services-labs {
         font-size: 2.2rem;
     }
@@ -958,6 +1020,7 @@ body{
     }
     .p-services-labs {
         font-size: 2.4rem;
+        width: 90%;
     }
     .btn-labs-escribirnos {
         padding: 0.6rem 2.4rem;
@@ -982,19 +1045,7 @@ body{
     .h3-article-services-labs {
         font-size: 2rem;
     }
-    .uno,
-    .dos {
-        height: 56vh;
-    }
-    .tres,
-    .cuatro {
-        height: 60vh;
-    }
-    .cinco,
-    .seis {
-        height: 40vh;
-        margin-top: -12rem;
-    }
+    
     .p-article-services-labs {
         font-size: 1.6rem;
     }
@@ -1003,21 +1054,8 @@ body{
         width: 80%;
         letter-spacing: .1rem;
     }
-    .p-container-cuatro-services-labs {
-        font-size: 2rem;
-    }
     .container-cuatro-services-labs {
         margin-top: 0;
-    }
-    .h2-contador-labs {
-        font-size: 2rem;
-        line-height: 3.2rem;
-    }
-    
-    .container-titulo-twitter-contador-labs,
-    .container-titulo-nft-contador-labs,
-    .container-titulo-discord-contador-labs {
-        margin-top: 1.2rem;
     }
     .container-contador-labs {
         grid-template-columns: 1fr;
@@ -1122,6 +1160,7 @@ body{
     .container-tres-services-labs {
         display: flex;
         flex-direction: column;
+        row-gap: 6rem;
     }
     .article-container-tres-services-labs {
         height: auto;
@@ -1140,19 +1179,20 @@ body{
     .container-cuatro-services-labs {
         margin-top: 8rem;
     }
-    .h2-contador-labs {
-        font-size: 2rem;
-        line-height: 3.2rem;
+    .general-container-contador-labs {
+        height: auto;
+        margin-bottom: 6rem;
+        padding: 6rem 0;
     }
     .container-contador-labs {
         width: 90%;
         margin-top: 6rem;
     }
     .simbolo-numero-nft-contador-labs {
-        font-size: 2.8rem;
+        font-size: 3.2rem;
     }
     .p-numero-contador-labs {
-        font-size: 2.8rem;
+        font-size: 3.2rem;
     }
     .container-titulo-twitter-contador-labs, 
     .container-titulo-nft-contador-labs, 
@@ -1165,11 +1205,11 @@ body{
     .h2-twitter-contador-labs, 
     .h2-nft-contador-labs, 
     .h2-discord-contador-labs {
-        font-size: 3.2rem;
+        font-size: 4rem;
     }
     .p-texto-contador-labs {
         font-size: 1.6rem;
-        margin-top: 0;
+        margin-top: 1.2rem;
     }
     .rrss a {
         margin: 1.2rem 1.6rem;
@@ -1202,6 +1242,12 @@ body{
         line-height: 2.4rem;
         margin: 2rem auto 0 auto;
     }
+    .h2-twitter-contador-labs, 
+    .h2-nft-contador-labs, 
+    .h2-discord-contador-labs {
+        font-size: 3.6rem;
+    }
+
     .h2-services-labs {
         font-size: 2.4rem;
     }
@@ -1225,7 +1271,7 @@ body{
         font-size: 1.8rem;
     }
     .h2-contador-labs {
-        font-size: 1.6rem;
+        font-size: 2rem;
         line-height: 2.4rem;
     }
     /* .h2-twitter-contador-labs, 
@@ -1249,10 +1295,13 @@ body{
         font-size: 1.5rem;
     }
     .h2-services-labs {
-        font-size: 2rem;
+        font-size: 2.4rem;
+        letter-spacing: .2rem;
     }
     .p-services-labs {
         font-size: 1.6rem;
+        letter-spacing: 1.2px;
+        line-height: 24px;
     }
     .h3-article-services-labs {
         font-size: 2.2rem;
@@ -1311,6 +1360,11 @@ body{
     .p-article-services-labs {
         line-height: 2.6rem;
     }
+    .container-general-twitter-contador-labs, 
+    .container-general-nft-contador-labs, 
+    .container-general-discord-contador-labs {
+        padding: 2rem;
+    }
     .btn-labs-escribirnos {
         font-size: 1.6rem;
         padding: .4rem 2rem;
@@ -1319,7 +1373,8 @@ body{
         font-size: 2rem;
     }
     .p-container-cuatro-services-labs {
-        font-size: 1.6rem;
+        font-size: 2rem;
+        font-weight: 400;
     }
     .h2-contador-labs {
         letter-spacing: .1rem;
@@ -1339,7 +1394,10 @@ body{
         margin-top: .8rem;
     }
     .container-contador-labs {
-        height: 92vh;
+        height: 80vh;
+    }
+    .general-container-contador-labs {
+        padding: 2rem 0;
     }
 }
 
