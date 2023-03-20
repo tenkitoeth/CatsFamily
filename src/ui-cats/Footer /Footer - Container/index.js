@@ -4,7 +4,7 @@ import magic from "./MagicEden.png"
 import labs from './logo-labs.png'
 
 function ContainerFooter() {
-    return (
+    return ( 
         <div className="contenedor">
             <div className="contenido-footer">
                 <div className="rrss">

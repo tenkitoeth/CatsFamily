@@ -1,4 +1,5 @@
 .contenido-footer{
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,16 +7,15 @@
 }
 
 .rrss{
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-
 .rrss a{
     margin: 20px;
 }
-
 
 .fa-footer{
     font-size: 40px;
@@ -23,12 +23,10 @@
     transition: 0.3s;
 }
 
-
 .rrss a img{
     width: 60px;
     transition: 0.5s;
 }
-
 
 .fa-footer:hover, .rrss a img:hover{
     transform: scale(1.15);
@@ -43,7 +41,8 @@
 }
 
 .condiciones-legales{
-    margin-top: 40px;
+    height: auto;
+    padding: 2rem 0;
     text-align: center;
     font-size: 16px;
 }
@@ -78,7 +77,8 @@
 }
 
 .copyright{
-    margin-top: 50px;
+    height: auto;
+    padding: 2rem 0;
     color: var(--white);
     font-size: 18px;
 }

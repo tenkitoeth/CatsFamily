@@ -8,19 +8,64 @@
     padding: 20px;
     color: var(--white);
     font-size: 20px;
-    
+    border-top: solid 2px rgb(219, 219, 219);
 }
 
-.autor a{
+.a-autor{
     text-decoration: none;
     color: #1766c2;
     text-decoration: underline;
 }
 
-.autor a:hover{
+
+
+.a-autor {
+    text-decoration: none;
+    color: #1766c2;
     text-decoration: underline;
+    padding: .4rem .8rem;
+    transition: all .3s ease-in-out;
+    letter-spacing: .1rem;
+    margin-left: .2rem;
 }
 
 
+.a-autor::before {  
+    transform: scaleX(0);
+    transform-origin: bottom top;
+}
+  
+.a-autor:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom bottom;
+}
+
+.a-autor:hover {
+    -webkit-text-fill-color: var(--text-color);
+    text-decoration: none;
+}
+
+.a-autor::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    border-radius: .4rem;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: #1766c2;
+    z-index: -1;
+    transition: transform .4s ease-in-out;
+}
+  
+.a-autor {
+    position: relative;
+    border-radius: .4rem;
+}
+  
+@media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+}
 
 
