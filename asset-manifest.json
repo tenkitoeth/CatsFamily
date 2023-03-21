@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/555Labs/static/css/main.e7706174.css",
-    "main.js": "/555Labs/static/js/main.b022fc0b.js",
+    "main.css": "/555Labs/static/css/main.64e2117d.css",
+    "main.js": "/555Labs/static/js/main.5f12a767.js",
     "static/media/Copia de 234.png": "/555Labs/static/media/Copia de 234.f526a78d795cbce26199.png",
     "static/media/Copia de 373.png": "/555Labs/static/media/Copia de 373.7f4aa76d4a84b3d2d2e8.png",
     "static/media/Copia de 252.png": "/555Labs/static/media/Copia de 252.49ff81cdd594f7ef66a7.png",
@@ -14,7 +14,6 @@
     "static/media/Copia de 175.png": "/555Labs/static/media/Copia de 175.5d23b4a2044c4675d1a0.png",
     "static/media/fondo_portada.mp4": "/555Labs/static/media/fondo_portada.13f507ef4bf42a261614.mp4",
     "static/media/socio2.png": "/555Labs/static/media/socio2.c2c918d184bd32bd61e3.png",
-    "static/media/logo-labs.png": "/555Labs/static/media/logo-labs.296240c1a524064556ea.png",
     "static/media/socio3.png": "/555Labs/static/media/socio3.5ef165db95e57fb8e1bb.png",
     "static/media/egipcio-min.webp": "/555Labs/static/media/egipcio-min.a8cc448ebc0b67e60feb.webp",
     "static/media/daddy_utilidad-removebg-preview.png": "/555Labs/static/media/daddy_utilidad-removebg-preview.3e7579ae94a3ca1130d1.png",
@@ -29,11 +28,11 @@
     "static/media/socio1.png": "/555Labs/static/media/socio1.bd287ade0498a9d41509.png",
     "index.html": "/555Labs/index.html",
     "static/media/plus.svg": "/555Labs/static/media/plus.18e46bbfa44de388026c38f00afdd67b.svg",
-    "main.e7706174.css.map": "/555Labs/static/css/main.e7706174.css.map",
-    "main.b022fc0b.js.map": "/555Labs/static/js/main.b022fc0b.js.map"
+    "main.64e2117d.css.map": "/555Labs/static/css/main.64e2117d.css.map",
+    "main.5f12a767.js.map": "/555Labs/static/js/main.5f12a767.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7706174.css",
-    "static/js/main.b022fc0b.js"
+    "static/css/main.64e2117d.css",
+    "static/js/main.5f12a767.js"
   ]
 }
