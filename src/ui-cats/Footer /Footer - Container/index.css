@@ -1,4 +1,5 @@
 .contenido-footer{
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -40,41 +41,127 @@
     color: #5662eb;
 }
 
+
+
+
+
+
+
+
+
 .condiciones-legales{
+    width: 60%;
     height: auto;
+    margin: 0 auto;
     padding: 2rem 0;
     text-align: center;
     font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-nav-footer {
+}
+
+.contenedor-nav-footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.li-nav-footer {
+    list-style: none;
+    margin: 1.2rem 0;
+}
+
+.li-nav-footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+    padding: .8rem 2rem;
+    border-radius: .8rem;
+}
+
+.li-nav-footer a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}  
+
+.li-nav-footer a::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+  
+.li-nav-footer a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+  
+.li-nav-footer a::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: rgba(255, 255, 255, 0.842);
+    z-index: -1;
+    transition: transform .4s ease;
+}
+  
+.li-nav-footer a {
+    position: relative;
 }
 
 
+@media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+}
+
+
+
+
+
+.legales {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .terminos{
-    border-right: 2px solid white;
-    padding-right: 10px;
-    margin-right: 5px;
     color: var(--purple);
     text-decoration: none;
+    margin: 1.2rem 0;
 }
 
 
 .privacidad{
     color: var(--purple);
     text-decoration: none;
+    margin: 1.2rem 0;
 }
 
 
 .cookies{
-    border-left: 2px solid white;
-    padding-left: 10px;
-    margin-left: 5px;
     color: var(--purple);
     text-decoration: none;
+    margin: 1.2rem 0;
 }
 
 
 .terminos:hover, .privacidad:hover, .cookies:hover{
     text-decoration: underline;
 }
+
+
+
+
+
+
+
+
+
 
 .copyright{
     height: auto;

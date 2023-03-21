@@ -14,7 +14,7 @@ function SectionContador555Labs() {
     return (
         <div id="community" className="general-container-contador-labs">
             <div className="container-titulo-contador-labs">
-                <h2 className="h2-contador-labs"><a className="a-555labs-h2">555 LABS</a> ha sido la empresa encargada del lanzamiento de la colección hispana más famosa,<a className="a-cats-h2" href="/dady"> Cats Family </a>, cuya valoración llegó a ser de más de 500.000 de dólares durante el año 2022</h2>
+                <h2 className="h2-contador-labs">En el primer año de su lanzamiento, <a className="a-cats-h2" href="/dady"> Cats Family </a> se posicionó como la mejor comunidad hispana de NFTs, alcanzando una valoración de más de 500.000 dólares.</h2>
             </div>
 
             <div className="container-contador-labs">

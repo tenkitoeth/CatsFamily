@@ -59,7 +59,7 @@
     text-decoration: none;
     color: var(--white);
     font-size: 18px;
-    transition: 0.5s;
+    transition: .5s;
 }
 /* .a-nav-cats:hover{
     text-decoration: underline;

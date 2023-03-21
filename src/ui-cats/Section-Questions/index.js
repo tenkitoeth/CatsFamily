@@ -8,23 +8,23 @@ const QuestionsSection = () => {
   const accordionData = [
     {
       title: '¿Qué es Cats Family?',
-      content: `Cats Family es una colección NFT desarrollada en la red de Solana.`
+      content: `Cats Family es una colección de NFTs desarrollada en la red de ETH. El objetivo principal es crear la comunidad NFT más potente del ecosistema, en la que se eduque a los miembros a desenvolverse en el sector.`
     },
     {
-      title: '¿Cuál es el supply total y el precio de mint?',
-      content: `El supply de la colección es de 1717 NFTs únicos hechos a mano. El precio de mint fue de 2.5 SOL.`
+      title: '¿Cuál es el supply total y el precio de lanzamiento?',
+      content: `El supply total es de 555 NFTs, y el lanzamiento fue GRATIS, al que solo se podía acceder cumpliendo una serie de requisitos.`
     },
     {
-      title: '¿Cómo puedo comprar un NFT de Cats Family? ',
-      content: `Puedes adquier un Cats Family en los mejores marketplaces de Solana como Magic Eden.`
+      title: 'No estuve en el lanzamiento, ¿puedo seguir comprando un NFT de Cats Family?',
+      content: `Por supuesto, la colección está listada en los mercados NFTs más importantes, por lo que puedes encontrar la colección en cualquiera de ellos, como por ejemplo Opensea o MagicEden.`
     },
     {
-      title: '¿Cuándo será la fecha de minteo? ',
-      content: `El lanzamiento oficial de la colección fue del 22 al 24 de julio del 2022.`
+      title: '¿Cuándo fue el lanzamiento?',
+      content: `El lanzamiento fue el 6 de Marzo de 2022 y un año después, en Marzo de 2023, con motivo del aniversario, se produjo la mutación de los NFTs, permitiendo a los holders obtener un NFT completamente nuevo y mejorado.`
     },
     {
       title: '¿Como verifico que soy poseedor de un Cats Family para poder acceder a todos los beneficios que tiene ser holder?',
-      content: `En el canal oficial de discord se ha habilitado una verificación detallada paso a paso, para que todos los poseedores puedan verificarse y comenzar a disfrutar de las ventajas que ofrece formar parte de esta comunidad`
+      content: `En el canal oficial de discord se ha habilitado una verificación detallada paso a paso, para que todos los poseedores puedan verificarse y comenzar a disfrutar de las ventajas que ofrece formar parte de esta comunidad.`
     }
   ];
 

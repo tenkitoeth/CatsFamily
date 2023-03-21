@@ -99,14 +99,20 @@
     transition: all .3s ease-in-out;
 }
 
-.div-texto-uno-article-pasos-section-adquirir-cats p a:hover, 
-.div-texto-dos-article-pasos-section-adquirir-cats p a:hover, 
 .div-texto-tres-article-pasos-section-adquirir-cats p a:hover {
     color: #5662eb;
 }
 
 .phantom:hover {
-    color: #675ddd;
+    color: #f1843b;
+}
+
+.opensea:hover {
+    color: rgba(36, 129, 226, 1);
+}
+
+.magiceden:hover {
+    color: #ba3163;
 }
 
 .img-adquirir {

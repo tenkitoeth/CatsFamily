@@ -160,6 +160,9 @@ body{
   .img-adquirir {
     height: 350px;
   }
+  .li-nav-footer a {
+    padding: 0.4rem 1.6rem;
+}
 }
 /* 850 */
 @media screen and (max-width: 768px){ 
@@ -246,6 +249,9 @@ body{
       grid-column-gap: 32px;
       grid-row-gap: 4rem;
   }
+  .condiciones-legales {
+    width: 80%;
+  }  
 }
 /* 650 */
 @media screen and (max-width: 600px){
@@ -391,6 +397,9 @@ body{
   .container-image-adquirir {
       height: 15vh;
   }
+  .condiciones-legales {
+    width: 100%;
+  }  
 }
 /* 500 */
 @media screen and (max-width: 480px){
@@ -506,16 +515,26 @@ body{
       padding: .8rem 0;
   }
 
+  .legales {
+      margin-top: 4rem;
+  }
+
   .terminos {
     border-right: none;
     padding-right: 0;
     margin-right: 0;
+    margin: .4rem 0;
+  }
+
+  .privacidad {
+      margin: .4rem 0;
   }
 
   .cookies {
     border-left: none;
     padding-left: 0;
     margin-left: 0;
+    margin: .4rem 0;
 }
 }
 

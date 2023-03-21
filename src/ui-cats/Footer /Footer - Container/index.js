@@ -18,9 +18,46 @@ function ContainerFooter() {
                 </div>
 
                 <div className="condiciones-legales">
-                    <a href="" className="terminos">Términos y Condiciones</a>
-                    <a href="" className="privacidad">Condiciones legales y política de privacidad</a>
-                    <a href="" className="cookies">Política de cookies</a>
+                    <nav className="contenedor-nav-footer">
+                        <ul>
+                            <li  className="li-nav-footer">
+                                <a href="">¿Quiénes Somos?</a>
+                            </li>
+                            
+                            <li className="li-nav-footer">
+                                <a href="">Utilidades</a>
+                            </li>
+
+                            <li className="li-nav-footer">
+                                <a href="">Beneficios</a>
+                            </li>
+
+                            <li className="li-nav-footer">
+                                <a href="">Servicios</a>
+                            </li>
+
+                            <li className="li-nav-footer">
+                                <a href="">Roadmap</a>
+                            </li>
+
+                            <li className="li-nav-footer">
+                                <a href="">Adquirir NFTs</a>
+                            </li>
+
+                            <li className="li-nav-footer">
+                                <a href="">FAQs</a>
+                            </li>
+
+                            <li className="li-nav-footer">
+                                <a href="">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div className="legales">
+                        <a href="" className="terminos">Términos y Condiciones</a>
+                        <a href="" className="privacidad">Condiciones legales y política de privacidad</a>
+                        <a href="" className="cookies">Política de cookies</a>
+                    </div>
                 </div>
 
                 <div className="copyright">

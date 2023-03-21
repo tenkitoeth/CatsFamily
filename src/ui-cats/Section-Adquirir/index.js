@@ -20,22 +20,22 @@ function AdquirirSection() {
                 <article className="article-pasos-section-adquirir-cats" data-aos="fade-right" data-aos-offset="200">
                     <div className="div-arrow-article-pasos-section-adquirir-cats" onClick={() => setActiveUno(!activeUno)}>
                         <i className={activeUno? "fa-solid fa-arrow-right i-activo" : "fa-solid fa-arrow-right"}></i>
-                        <h3>Descargar una wallet de la red de Solana</h3>
+                        <h3>Descarga una billetera que soporte la red de Ethereum.</h3>
                     </div>
 
                     <div className={activeUno ? 'div-texto-uno-article-pasos-section-adquirir-cats respuesta-active' : 'div-texto-uno-article-pasos-section-adquirir-cats'}>
-                        <p>Como por ejemplo: <a href="https://phantom.app/download" className="phantom">Phantom</a>.</p>
+                        <p>Como por ejemplo: <a href="https://metamask.io/download/" className="phantom">Metamask</a>.</p>
                     </div>
                 </article>
 
                 <article className="article-pasos-section-adquirir-cats" data-aos="fade-right" data-aos-offset="200">
                     <div className="div-arrow-article-pasos-section-adquirir-cats" onClick={() => setActiveDos(!activeDos)}>
                         <i className={activeDos? "fa-solid fa-arrow-right i-activo" : "fa-solid fa-arrow-right"}></i>
-                        <h3>¿Dónde puedo comprar un NFT de la colección?</h3>
+                        <h3>¿Dónde puedo comprar un NFT de la colección?</h3>  
                     </div>
 
                     <div className={activeDos ? 'div-texto-dos-article-pasos-section-adquirir-cats respuesta-active' : 'div-texto-dos-article-pasos-section-adquirir-cats'}>
-                        <p>Para comprar un NFT de la colección debes acceder a un marketplace de la red de solana, como por ejemplo MagicEden o Hyperspace.</p>
+                        <p>Puedes comprar un NFT de la colección en cualquiera de los mercados más importantes de NFTs, como <a href="https://opensea.io/es" className="opensea">Opensea</a> o <a href="https://magiceden.io/" className="magiceden">MagicEden</a>.</p>
                     </div>
                 </article>
 
