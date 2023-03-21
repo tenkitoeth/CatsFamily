@@ -11,7 +11,7 @@ import { faBitcoinSign } from '@fortawesome/free-solid-svg-icons'
 
 function BeneficiosSection() {
     return (
-        <section id="servicios">
+        <section id="beneficios">
             <div className="contenedor">
                 <div className="contenido-servicios">
                     <h2><span>BENEFICIOS</span> POR SER MIEMBRO</h2>

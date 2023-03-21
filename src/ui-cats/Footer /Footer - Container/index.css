@@ -40,7 +40,11 @@
 .a-discord-footer:hover {
     color: #5662eb;
 }
-
+/* 
+.active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+} */
 
 
 
@@ -70,6 +74,7 @@
 .li-nav-footer {
     list-style: none;
     margin: 1.2rem 0;
+    cursor: pointer;
 }
 
 .li-nav-footer a {

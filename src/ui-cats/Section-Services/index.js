@@ -5,7 +5,7 @@ import { faLightbulb, faRocket, faScaleBalanced, faBook, faUserTie, faChartLine 
 
 function SectionServices555Labs() {
     return (
-        <section id="services" className="section-services-labs">
+        <section id="servicios" className="section-services-labs">
 
             <div className="container-uno-services-labs">
                 <h2 className="h2-services-labs">¿Quieres lanzar tu propio proyecto <span>NFT</span>?</h2>

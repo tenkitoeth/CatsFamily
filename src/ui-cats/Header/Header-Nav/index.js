@@ -1,7 +1,9 @@
 import {React, useState} from "react";
 import "./index.css";
 import logoMenu from "./assets/LOGO-1024x1024.webp"
-import MagicEden from "./assets/MagicEden.png"
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
+
 
 function NavHeader({ menuBurguer }){
     
@@ -34,88 +36,101 @@ function NavHeader({ menuBurguer }){
                 </div>
 
                 <ul className={hamburguer ? "menu show" : "menu"}>
-                    <li onClick={() => {
-                        return (
-                            setHamburguer(!hamburguer),
-                            setHamEffect(!hamEffect)
-                        )
-                    }}>
-                        <a className="a-nav-cats" href="../../Section-Quienes-Somos">¿Quiénes somos?</a>
+                    <li>
+                        <Link to="quienes-somos" className="a-nav-cats" 
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}>
+                            ¿Quiénes Somos?
+                        </Link>
                     </li>
 
-                    <li onClick={() => {
-                        return (
-                            setHamburguer(!hamburguer),
-                            setHamEffect(!hamEffect)
-                        )
-                    }}>
-                        <a className="a-nav-cats" href="../../Section-Utilidades">Utilidades</a>
+                    <li>
+                        <Link to="utilidad" className="a-nav-cats"
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}>
+                            Utilidades
+                        </Link>
                     </li>
 
-                    <li onClick={() => {
-                        return (
-                            setHamburguer(!hamburguer),
-                            setHamEffect(!hamEffect)
-                        )
-                    }}>
-                        <a className="a-nav-cats" href="../../Section-Beneficios">Beneficios</a>
+                    <li>
+                        <Link to="beneficios" className="a-nav-cats"
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}>
+                        Beneficios</Link>
                     </li>
 
-                    <li onClick={() => {
-                        return (
-                            setHamburguer(!hamburguer),
-                            setHamEffect(!hamEffect)
-                        )
-                    }}>
-                        <a className="a-nav-cats" href="../../Section-Beneficios">Servicios</a>
+                    <li>
+                        <Link to="servicios" className="a-nav-cats"
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}>
+                        Servicios</Link>
                     </li>
 
-                    <li onClick={() => {
-                        return (
-                            setHamburguer(!hamburguer),
-                            setHamEffect(!hamEffect)
-                        )
-                    }}>
-                        <a className="a-nav-cats" href="../../Roadmap">Roadmap</a>
+                    <li>
+                        <Link to="roadmap" className="a-nav-cats"
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}>
+                        Roadmap</Link>
                     </li>
 
-                    <li onClick={() => {
-                        return (
-                            setHamburguer(!hamburguer),
-                            setHamEffect(!hamEffect)
-                        )
-                    }}>
-                        <a className="a-nav-cats" href="../../Section-Adquirir">Adquirir NFTs</a>
+                    <li>
+                        <Link to="adquirir" className="a-nav-cats"
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}>
+                        Adquirir NFTs</Link>
                     </li>
 
-                    <li onClick={() => {
-                        return (
-                            setHamburguer(!hamburguer),
-                            setHamEffect(!hamEffect)
-                        )
-                    }}>
-                        <a className="a-nav-cats" href="../../Section-Questions">FAQs</a>
+                    <li>
+                        <Link to="faq" className="a-nav-cats"
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}>
+                        FAQs</Link>
                     </li>
 
-                    <li onClick={() => {
-                        return (
-                            setHamburguer(!hamburguer),
-                            setHamEffect(!hamEffect)
-                        )
-                    }}>
-                        <a className="a-nav-cats" href="/555Labs/#/Cats/Section-Contact">Contáctanos</a>
+                    <li>
+                        <Link to="contacto" className="a-nav-cats"
+                        onClick={() => {
+                            return (
+                                setHamburguer(!hamburguer),
+                                setHamEffect(!hamEffect)
+                            )
+                        }}>
+                        Contáctanos</Link>
                     </li>
 
-                    <li onClick={() => {
-                        return (
-                            setHamburguer(!hamburguer),
-                            setHamEffect(!hamEffect)
-                        )
-                    }}>
-                        <a className="a-twitter-nav-cats" href="https://twitter.com/CatsFamilyNFT" target="_blank">
+                    <li>
+                        <NavLink to="https://twitter.com/CatsFamilyNFT" className="a-twitter-nav-cats" target="_blank">
                             <span>Twitter</span>
                             <i className="fa-brands fa-twitter"></i>
-                        </a>
+                        </NavLink>
                     </li>
 
                 </ul>

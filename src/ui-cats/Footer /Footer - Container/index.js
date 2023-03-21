@@ -1,55 +1,55 @@
 import React from "react";
 import "./index.css"
 import magic from "./MagicEden.png"
-import labs from './logo-labs.png'
+import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function ContainerFooter() {
     return ( 
         <div className="contenedor">
             <div className="contenido-footer">
                 <div className="rrss">
-                    <a href="https://twitter.com/CatsFamilyNFT" target="_blank"><i className="fa-brands fa-twitter fa-footer a-twitter-footer"></i></a>
+                    <NavLink href="https://twitter.com/CatsFamilyNFT" target="_blank"><i className="fa-brands fa-twitter fa-footer a-twitter-footer"></i></NavLink>
 
-                    <a href="https://discord.com/invite/JpfC8jRZhW" target="_blank"><i className="fa-brands fa-discord fa-footer a-discord-footer"></i></a>
+                    <NavLink href="https://discord.com/invite/JpfC8jRZhW" target="_blank"><i className="fa-brands fa-discord fa-footer a-discord-footer"></i></NavLink>
 
-                    <a href="https://magiceden.io/marketplace/daddy_cats" target="_blank"><img className="magic-eden-logo" src={magic} alt="Buy a Daddy Cat on MagicEden" /></a>
+                    <NavLink href="https://magiceden.io/marketplace/daddy_cats" target="_blank"><img className="magic-eden-logo" src={magic} alt="Buy a Daddy Cat on MagicEden" /></NavLink>
 
-                    <a href="/555Labs"><img className="labs-logo-footer-cats" src={labs} alt="Visit the 555Labs website " /></a>
                 </div>
 
                 <div className="condiciones-legales">
                     <nav className="contenedor-nav-footer">
                         <ul>
                             <li  className="li-nav-footer">
-                                <a href="">¿Quiénes Somos?</a>
+                                <Link to="quienes-somos">¿Quiénes Somos?</Link>
                             </li>
                             
                             <li className="li-nav-footer">
-                                <a href="">Utilidades</a>
+                                <Link to="utilidad">Utilidades</Link>
                             </li>
 
                             <li className="li-nav-footer">
-                                <a href="">Beneficios</a>
+                                <Link to="beneficios">Beneficios</Link>
                             </li>
 
                             <li className="li-nav-footer">
-                                <a href="">Servicios</a>
+                                <Link to="servicios">Servicios</Link>
                             </li>
 
                             <li className="li-nav-footer">
-                                <a href="">Roadmap</a>
+                                <Link to="roadmap">Roadmap</Link>
                             </li>
 
                             <li className="li-nav-footer">
-                                <a href="">Adquirir NFTs</a>
+                                <Link to="adquirir">Adquirir NFTs</Link>
                             </li>
 
                             <li className="li-nav-footer">
-                                <a href="">FAQs</a>
+                                <Link to="faq">FAQs</Link>
                             </li>
 
                             <li className="li-nav-footer">
-                                <a href="">Contáctanos</a>
+                                <Link to="contacto">Contáctanos</Link>
                             </li>
                         </ul>
                     </nav>

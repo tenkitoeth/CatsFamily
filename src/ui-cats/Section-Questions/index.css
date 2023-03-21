@@ -11,8 +11,11 @@
 }
 
 .titulo-faq{
+    width: 90%;
     margin-top: 100px;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .titulo-faq h2 {

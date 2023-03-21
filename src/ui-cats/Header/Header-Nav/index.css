@@ -51,6 +51,7 @@
 .menu li{
     list-style: none;
     margin: 20px 8px;
+    cursor: pointer;
 }
 .a-nav-cats{
     width: 100%;
