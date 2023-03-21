@@ -27,7 +27,7 @@ function SectionServices555Labs() {
                 <div className="article-container-tres-services-labs dos" >
                     <FontAwesomeIcon icon={faRocket} className="icono-services"/>
                     <h3 className="h3-article-services-labs">Lanzamiento de la colección</h3>
-                    <p className="p-article-services-labs p-dos">Creación y ayuda con la gestión de las redes sociales y el marketing de las mismas, creación de la comunidad de discord, lanzamiento de la colección en launchpad</p>
+                    <p className="p-article-services-labs p-dos">Creación y ayuda con la gestión de las redes sociales y el marketing de las mismas, creación de la comunidad de discord, lanzamiento de la colección en launchpad.</p>
                 </div>
 
                 <div className="article-container-tres-services-labs tres">
@@ -45,7 +45,7 @@ function SectionServices555Labs() {
                 <div className="article-container-tres-services-labs cinco" >
                     <FontAwesomeIcon icon={faUserTie} className="icono-services"/>
                     <h3 className="h3-article-services-labs">Creación de empresa</h3>
-                    <p className="p-article-services-labs">Creación de empresa (en caso de solicitarlo), tanto a nivel nacional como internacional</p>
+                    <p className="p-article-services-labs">Creación de empresa (en caso de solicitarlo), tanto a nivel nacional como internacional.</p>
                 </div>
 
                 <div className="article-container-tres-services-labs seis" >

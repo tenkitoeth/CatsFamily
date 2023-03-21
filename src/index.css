@@ -706,6 +706,22 @@ body{
   .condiciones-legales a {
     font-size: 16px;
   }
+
+  .li-nav-footer a {
+      font-size: 2rem;
+  }
+
+  .terminos{
+      font-size: 1.2rem;
+  }
+
+  .privacidad{
+      font-size: 1.2rem;
+  }
+
+  .cookies{
+      font-size: 1.2rem;
+  }
 }
 /* 320 */
 @media screen and (max-width: 360px){
