@@ -552,6 +552,9 @@ body{
   .contenedor-nav-footer ul {
       margin-left: 0;
   }
+  .condiciones-legales {
+    width: 80%;
+}
 }
 
 @media screen and (max-width: 393px){
@@ -650,7 +653,7 @@ body{
         text-decoration: none;
     }
     .condiciones-legales {
-        width: 70%;
+        width: 80%;
     }
 }
 /* 375 */
@@ -759,7 +762,7 @@ body{
     padding: 0.4rem 0;
   }
   .condiciones-legales {
-      width: 80%;
+      width: 90%;
   }
 
   
@@ -814,6 +817,9 @@ body{
   .menu li a {
       font-size: 1.6rem;
   }
+  .condiciones-legales {
+    width: 100%;
+}
   
 }
 
