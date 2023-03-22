@@ -1,7 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css"
 
 function ContactSection() {
+    
+    // const [name, setName] = useState('');
+    // const [email, setEmail] = useState('');
+    // const [subject, setSubject] = useState('');
+    // const [message, setMessage] = useState('');
+
+    // const handleSubmit = async (event) => { 
+    //         event.preventDefault();
+    //         console.log(this.name.value);
+    //         try {
+    //             await fetch('https://formspree.io/f/mzbqaven', {
+    //             method: 'post',
+    //             headers: {'Content-Type':'application/json'},
+    //             body: {
+    //             "email": this.email.value,
+    //             "message": `nombre: ${this.name.value} 
+    //                         asunto: ${this.subject.value}
+    //                         mensaje: ${this.message.value}`
+    //             }
+    //         });
+    //         } catch (error) {
+    //             console.log(error);
+    //         }
+    // };
+    
+    
     return (
         <section id="contacto">
             <div className="contenedor">
@@ -10,21 +36,37 @@ function ContactSection() {
                 
                     <p className="textsection-p">Puedes establecer contacto con nosotros <span className="textsection-p--span">sin ningún tipo de compromiso</span> a través del siguiente formulario. Una vez estudiemos tu caso te daremos un presupuesto acorde al mismo.</p>
 
-                    <form action="https://formspree.io/f/{form_id}" method="POST" data-aos="zoom-in-up" data-aos-duration="600" data-aos-offset="300">
-                        <input type="text" name="name" placeholder="Tu nombre" required />
+                    {/* <form onSubmit={handleSubmit}>
+                        <div className="div-form">
+                            <label htmlFor="name">Nombre</label>
+                            <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} />
+                        </div>
 
-                        <input type="email" name="email" placeholder="Tu E-mail" required />
+                        <div className="div-form">
+                            <label htmlFor="email">Correo electrónico</label>
+                            <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                        </div>
 
-                        <input type="text" name="asunto" placeholder="Asunto" required />
+                        <div className="div-form">
+                            <label htmlFor="subject">Asunto</label>
+                            <input type="text" id="subject" value={subject} onChange={(e) => setSubject(e.target.value)} />
+                        </div>
 
-                        <textarea name="mensaje" id="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+                        <div className="div-form">
+                            <label htmlFor="message">Mensaje</label>
+                            <textarea id="message" value={message} onChange={(e) => setMessage(e.target.value)} />
+                        </div>
 
                         <button type="submit" className="btn-ghost primary">Enviar <i className="fa-solid fa-paper-plane"></i></button>
-                    </form> 
+                    </form> */}
+
+                    <div className="div-button-contactanos">
+                        <a href="mailto:kittycatssol@protonmail.com" className="button-contactanos">CONTACTANOS<i className="icono-button-contactanos fa-solid fa-envelope-open-text"></i></a>
+                    </div>
                 </div>
             </div>
         </section>
     )
 }
 
-export { ContactSection }
+export { ContactSection } 

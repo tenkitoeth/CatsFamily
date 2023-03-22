@@ -9,11 +9,11 @@ function SectionServices555Labs() {
 
             <div className="container-uno-services-labs">
                 <h2 className="h2-services-labs">¿Quieres lanzar tu propio proyecto <span>NFT</span>?</h2>
-                <p className="p-services-labs">Estás en el lugar correcto. En 555 LABS nos encargamos de guiarte en todo el proceso de creación de una colección de NFTs de principio a fin, ofreciendo diferentes servicios.</p>
+                <p className="p-services-labs">Estás en el lugar correcto. En Cats Family nos encargamos de guiarte en todo el proceso de creación de una colección de NFTs de principio a fin, ofreciendo diferentes servicios.</p>
             </div>
 
             <div className="container-dos-services-labs">
-                <h1 className="h1-services-labs">Servicios que ofrecemos desde 555 LABS</h1>
+                <h1 className="h1-services-labs">Servicios que ofrecemos desde Cats Family</h1>
             </div>
 
             <div className="container-tres-services-labs">

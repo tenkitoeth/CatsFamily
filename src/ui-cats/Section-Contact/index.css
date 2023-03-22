@@ -2,7 +2,7 @@
     position: relative;
     height: auto;
     background-color: #ffffff;
-    padding: 6rem 0;
+    padding: 10rem 0;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -33,7 +33,7 @@
     color: rgb(0, 0, 0);
     font-weight: 600;
 }
-
+/* 
 form{
     display: flex;
     flex-direction: column;
@@ -46,10 +46,22 @@ form{
     box-shadow: 0 0 10px 0 #070707;
 }
 
+.div-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-form label {
+    font-size: 1.6rem;
+    margin-left: .8rem;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #ffffff;
+}
+
 
 form input{
-    padding: 10px;
-    margin: 10px 0px;
+    padding: 12px;
+    margin: 10px 0px 20px 0;
     border-radius: 10px;
     border: 1px solid #2C2C2C;
     font-size: 16px;
@@ -59,7 +71,8 @@ form input{
 
 form textarea{
     resize: none;
-    padding: 10px;
+    height: 20vh;
+    padding: 12px;
     margin: 10px 0px;
     border-radius: 10px;
     border: 1px solid #2C2C2C;
@@ -71,8 +84,61 @@ form textarea{
 form button{
     margin-top: 20px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-}
+} */
 
 .primary {
     cursor: pointer;
 }
+
+.fa-paper-plane {
+    margin-left: .4rem;
+}
+
+.div-button-contactanos {
+    width: 60%;
+    height: auto;
+    padding: 2rem 0;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-contactanos {
+    width: 60%;
+    height: 8vh;
+    border-radius: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #dc4738;
+    border: solid 2px #f56f63;
+    transition: all .4s ease-in-out;
+}
+
+.button-contactanos:hover {
+    background-color: #fff0f0;
+    color: #dc4738;
+    box-shadow: 0 0 10px 0 #dc4738;
+}
+
+/* .button-contactanos a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2rem;
+} */
+
+.button-contactanos a:hover {
+    color: #dc4738;
+}
+
+.icono-button-contactanos {
+    margin-left: 1.2rem;
+}
+

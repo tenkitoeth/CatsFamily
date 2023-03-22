@@ -12,7 +12,7 @@ import socio8 from '../assets/socio8.png'
 function Socios() {
     return (
         <section className="section-socios">
-                <h2 className="h2-socios">SOCIOS</h2>
+                <h2 className="h2-socios">PARTNERS</h2>
                 <div className="container-div-imagenes">
                     <div className="div-imagenes-socios" >
                         <img src={socio1} className="socios socio1"/>
