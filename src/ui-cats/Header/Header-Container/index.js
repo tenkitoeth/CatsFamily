@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import logoFondo from "./LOGO-1024x1024.webp"
+import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 
 function ContainerTitulo(){
