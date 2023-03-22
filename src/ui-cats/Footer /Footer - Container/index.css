@@ -54,14 +54,16 @@
 
 
 .condiciones-legales{
-    width: 60%;
+    width: 30%;
     height: auto;
     margin: 0 auto;
     padding: 2rem 0;
     text-align: center;
     font-size: 16px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 
@@ -69,6 +71,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-left: -20px;
 }
 
 .li-nav-footer {
@@ -83,7 +86,7 @@
     transition: .3s;
     padding: .8rem 2rem;
     border-radius: .8rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .li-nav-footer a:hover {
@@ -138,7 +141,6 @@
     font-size: 1.2rem;
     text-decoration: none;
     margin: 1.2rem 0;
-    text-decoration: underline;
 }
 
 .terminos:hover {
@@ -151,7 +153,6 @@
     font-size: 1.2rem;
     text-decoration: none;
     margin: 1.2rem 0;
-    text-decoration: underline;
 }
 
 .privacidad:hover {
@@ -164,7 +165,6 @@
     font-size: 1.2rem;
     text-decoration: none;
     margin: 1.2rem 0;
-    text-decoration: underline;
 }
 
 .cookies:hover {
