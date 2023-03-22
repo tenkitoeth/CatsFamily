@@ -9,11 +9,11 @@ function ContainerFooter() {
         <div className="contenedor">
             <div className="contenido-footer">
                 <div className="rrss">
-                    <NavLink href="https://twitter.com/CatsFamilyNFT" target="_blank"><i className="fa-brands fa-twitter fa-footer a-twitter-footer"></i></NavLink>
+                    <a href="https://twitter.com/CatsFamilyNFT" target="_blank"><i className="fa-brands fa-twitter fa-footer a-twitter-footer"></i></a>
 
-                    <NavLink href="https://discord.com/invite/JpfC8jRZhW" target="_blank"><i className="fa-brands fa-discord fa-footer a-discord-footer"></i></NavLink>
+                    <a href="https://discord.com/invite/JpfC8jRZhW" target="_blank"><i className="fa-brands fa-discord fa-footer a-discord-footer"></i></a>
 
-                    <NavLink href="https://magiceden.io/marketplace/daddy_cats" target="_blank"><img className="magic-eden-logo" src={magic} alt="Buy a Daddy Cat on MagicEden" /></NavLink>
+                    <a href="https://magiceden.io/marketplace/daddy_cats" target="_blank"><img className="magic-eden-logo" src={magic} alt="Buy a Daddy Cat on MagicEden" /></a>
 
                 </div>
 
