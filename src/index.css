@@ -553,8 +553,8 @@ body{
       margin-left: 0;
   }
   .condiciones-legales {
-    width: 80%;
-}
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 393px){
@@ -651,9 +651,6 @@ body{
     }
     .cookies {
         text-decoration: none;
-    }
-    .condiciones-legales {
-        width: 80%;
     }
 }
 /* 375 */
@@ -761,9 +758,6 @@ body{
   .a-autor-labs {
     padding: 0.4rem 0;
   }
-  .condiciones-legales {
-      width: 90%;
-  }
 
   
 }
@@ -817,9 +811,6 @@ body{
   .menu li a {
       font-size: 1.6rem;
   }
-  .condiciones-legales {
-    width: 100%;
-}
   
 }
 
