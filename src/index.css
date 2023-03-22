@@ -629,6 +629,22 @@ body{
         height: 7vh;
         width: 80%;
     }
+    .li-nav-footer a {
+        font-size: 1.2rem;
+    }
+    .legales {
+        font-size: 1.2rem;
+        margin-top: .8rem;
+    }
+    .terminos {
+        text-decoration: none;
+    }
+    .privacidad {
+        text-decoration: none;
+    }
+    .cookies {
+        text-decoration: none;
+    }
 }
 /* 375 */
 @media screen and (max-width: 375px){
