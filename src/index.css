@@ -126,9 +126,9 @@ body{
       font-size: 60px;
   }
   /* quienes somos */
-  #quienes-somos {
+  /* #quienes-somos {
       height: 75vh;
-  }
+  } */
   .contenido-quienes-somos p{
       max-width: 70%;
       font-size: 20px;
@@ -280,9 +280,9 @@ body{
   h2{
       font-size: 40px;
   }
-  #quienes-somos{
+  /* #quienes-somos{
       height: 60vh;
-  }
+  } */
   #utilidad {
       height: 90vh;
   }
@@ -579,12 +579,12 @@ body{
     .menu li a {
         font-size: 1.8rem;
     }
-    #quienes-somos {
+    /* #quienes-somos {
         height: 70vh;
-    }
-    .contenido-quienes-somos h2 {
+    } */
+    /* .contenido-quienes-somos h2 {
         padding-top: 10rem;
-    }
+    } */
     .contenido-quienes-somos h2 {
         font-size: 3.2rem;
     }
