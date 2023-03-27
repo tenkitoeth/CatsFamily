@@ -35,7 +35,7 @@ function SectionContador555Labs() {
                                     </CountUp>}
                                 </ScrollTriggre>
                             </div>
-                        <p className="p-texto-contador-labs">De seguidores en Twitter</p>
+                        <p className="p-texto-contador-labs">Seguidores en Twitter</p>
                     </div>
                 </div>
 
