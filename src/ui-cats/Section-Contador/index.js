@@ -75,7 +75,7 @@ function SectionContador555Labs() {
                                 </CountUp>}
                             </ScrollTriggre>
                         </div>
-                        <p className="p-texto-contador-labs">En nuestra comunidad</p>
+                        <p className="p-texto-contador-labs">Miembros en la comunidad</p>
                     </div>
                 </div>
                 
