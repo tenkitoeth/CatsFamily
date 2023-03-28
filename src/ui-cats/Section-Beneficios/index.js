@@ -19,7 +19,7 @@ function BeneficiosSection() {
                     <p className="textsection3-p">Desde el equipo de Cats Family ofrecemos ayuda a todo aquel que esté interesado en crear su propio
                         <span className="textsection3-p--span"> proyecto NFT o Web3</span>. Ofrecemos servicios de mentoría para resolver todas las dudas que se planteen.
                         Además, contamos con un <span className="textsection3-p--span">equipo especializado</span> tanto en regularización y tokenización, como en el
-                        diseño de NFTs, por lo que también ofrecemos la <span className="textsection3-p--span">posibilidad de involucranos directamente</span> en el
+                        diseño de NFTs, por lo que también ofrecemos la <span className="textsection3-p--span">posibilidad de involucrarnos directamente</span> en el
                         desarrollo de la colección a través de servicios contratados.
                     </p>
 

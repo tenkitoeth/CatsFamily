@@ -113,7 +113,8 @@ body {
 
 .article-container-tres-services-labs  {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
+    min-height: 50vh;
     background-color: #2C2C2C;
     border: solid 2px #6d6d6d;;
     backdrop-filter: blur(1rem);

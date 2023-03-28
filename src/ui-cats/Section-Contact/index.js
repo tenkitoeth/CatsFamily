@@ -61,7 +61,7 @@ function ContactSection() {
                     </form> */}
 
                     <div className="div-button-contactanos">
-                        <a href="mailto:kittycatssol@protonmail.com" className="button-contactanos">CONTACTANOS<i className="icono-button-contactanos fa-solid fa-envelope-open-text"></i></a>
+                        <a href="mailto:kittycatssol@protonmail.com" className="button-contactanos">CONTÁCTANOS<i className="icono-button-contactanos fa-solid fa-envelope-open-text"></i></a>
                     </div>
                 </div>
             </div>

@@ -65,7 +65,7 @@ body{
     margin-left: 60px;
   }
   .article-container-tres-services-labs {
-    height: 40vh;
+    height: auto;
   }
   .h2-contador-labs {
       width: 100%;
@@ -226,7 +226,7 @@ body{
     padding: 12rem 0 16rem 0;
   }
   .article-container-tres-services-labs {
-    height: 45vh;
+    height: auto;
   }
   .contenido-servicios p {
       max-width: 100%;
@@ -779,7 +779,6 @@ body{
       top: 13vh;
   }
   .contenedor-preguntas div {
-      position: sticky;
       top: 13vh;
   }
   form {
@@ -904,10 +903,6 @@ body{
         backdrop-filter: none;
     }
 
-
-
-
-
     .li-nav {
         padding: 0;
         font-size: 3.2rem;
@@ -951,7 +946,7 @@ body{
         font-size: 2.2rem;
     }
     .general-container-contador-labs {
-        height: 100vh;
+        height: auto;
     }
     .h2-contador-labs {
         font-size: 3.2rem;
@@ -1469,7 +1464,7 @@ body{
         margin-top: .8rem;
     }
     .container-contador-labs {
-        height: 80vh;
+        height: auto;
     }
     .general-container-contador-labs {
         padding: 2rem 0;
