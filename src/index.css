@@ -555,7 +555,7 @@ body{
   .condiciones-legales {
     width: 100%;
   }
-}
+} 
 
 @media screen and (max-width: 393px){
     .contenido-portada img {
@@ -1244,7 +1244,7 @@ body{
     .cinco, 
     .seis {
         margin-top: 0;
-    }
+    } 
     .container-cuatro-services-labs {
         margin-top: 8rem;
     }
