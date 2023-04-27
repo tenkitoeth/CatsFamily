@@ -20,11 +20,11 @@ function AdquirirSection() {
                 <article className="article-pasos-section-adquirir-cats" data-aos="fade-right" data-aos-offset="200">
                     <div className="div-arrow-article-pasos-section-adquirir-cats" onClick={() => setActiveUno(!activeUno)}>
                         <i className={activeUno? "fa-solid fa-arrow-right i-activo" : "fa-solid fa-arrow-right"}></i>
-                        <h3>Descarga una billetera que soporte la red de Polygon.</h3>
+                        <h3>Descarga una billetera que soporte la red de Solana.</h3>
                     </div>
 
                     <div className={activeUno ? 'div-texto-uno-article-pasos-section-adquirir-cats respuesta-active' : 'div-texto-uno-article-pasos-section-adquirir-cats'}>
-                        <p>Como por ejemplo: <a href="https://metamask.io/download/" className="phantom">Metamask</a>.</p>
+                        <p>Como por ejemplo: <a href="https://phantom.app/" className="phantom">Phantom</a>.</p>
                     </div>
                 </article>
 

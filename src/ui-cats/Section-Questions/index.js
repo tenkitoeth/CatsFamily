@@ -8,7 +8,7 @@ const QuestionsSection = () => {
   const accordionData = [
     {
       title: '¿Qué es Cats Family?',
-      content: `Cats Family es una colección de NFTs desarrollada en la red de Polygon. El objetivo principal es crear la comunidad NFT más potente del ecosistema, en la que se eduque a los miembros a desenvolverse en el sector.`
+      content: `Cats Family es una colección de NFTs desarrollada en la red de Solana. El objetivo principal es crear la comunidad NFT más potente del ecosistema, en la que se eduque a los miembros a desenvolverse en el sector.`
     },
     {
       title: '¿Cuál es el supply total y el precio de lanzamiento?',
