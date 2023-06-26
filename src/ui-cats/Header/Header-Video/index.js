@@ -3,11 +3,6 @@ import "./index.css";
 import videoPortada from "./fondo_portada.mp4"
 
 function VideoFondo(){
-    const [muted, setMuted] = useState(true);
-
-    useEffect(() => {
-      setMuted(false);
-    }, []);
 
     return (
         <video className="video-fondo" autoPlay="autoplay" loop={true} muted={muted} defaultmuted="true" playsInline={true} disablePictureInPicture={true} >
